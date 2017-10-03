@@ -493,7 +493,6 @@ if(isset($_GET["token"]) && isset($_GET["PayerID"]))
                             <h2>Company</h2>
                             <ul>
                                 <li><a href="about.html" title="About">About</a></li>
-                                <li><a href="how_we_differ.html" title="How We Differ">How We Differ</a></li>
                                 <li><a href="faqs.html" title="Faq’s">FAQ’s</a></li>
                                 <li><a href="contact_us.html" title="Contact us">Contact us</a></li>
                             </ul>
@@ -501,7 +500,6 @@ if(isset($_GET["token"]) && isset($_GET["PayerID"]))
                         <div class="column">
                             <h2>Help</h2>
                             <ul>
-                                <li><a href="sitemap.html" title="Sitemap">Sitemap</a></li>
                                 <li><a href="privacy_policy.html" title="Privacy Policy">Privacy Policy</a></li>
                                 <li><a href="term_of_use.html" title="Terms & Conditions">Terms & Conditions</a></li>
                             </ul>

@@ -1,5 +1,4 @@
-<?php session_start(); $_SESSION['product']="Logikey";
-       include('admin/connect.php'); ?>
+<?php session_start(); $_SESSION['product']="Gatekeeper Pro";?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
@@ -14,7 +13,7 @@
  <link rel="stylesheet" href="css/colorbox.css" />
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 		<script src="js/jquery.colorbox.js"></script>
-		<script>
+<script>
 		var police;
 		var total=0;
 			$(document).ready(function(){
@@ -22,213 +21,71 @@
 			});
 		</script>
 <script>
-  
-   function get_shipping()
-    {
-         var fname=document.getElementById("firstName").value;
-		 if( (fname=="")|| (fname=="Enter First Name"))
-		  {  document.getElementById("firstName").value = 'Enter First Name';
-			 document.getElementById("firstName").style.color="red";
-		     return false; }
-		 var lname=document.getElementById("lastName").value;
-		 if( (lname=="")|| (lname=="Enter Last Name"))
-		  {  document.getElementById("lastName").value = 'Enter Last Name';
-			 document.getElementById("lastName").style.color="red";
-		     return false; }
-		  var add=document.getElementById("address").value;	
-		  if( (add=="")|| (add=="Enter Address"))
-		  {  document.getElementById("address").value = 'Enter Address';
-			 document.getElementById("address").style.color="red";
-		     return false; } 
-		  var city=document.getElementById("city").value;
-		   if( (city=="")|| (city=="Enter City"))
-		   {  document.getElementById("city").value = 'Enter City';
-			  document.getElementById("city").style.color="red";
-		      return false; }
-		  var state=document.getElementById("state").value;
-		   if( (state=="")|| (state=="Enter State"))
-		   {  document.getElementById("state").value = 'Enter State';
-			  document.getElementById("state").style.color="red";
-		      return false; }
-		  var zipcode=document.getElementById("zipCode").value;
-		   if( (zipcode=="")|| (zipcode=="Enter Zipcode"))
-		   {  document.getElementById("zipCode").value = 'Enter Zipcode';
-			  document.getElementById("zipCode").style.color="red";
-		      return false; }
-		   else
-		   {
-			   if(isNaN(zipcode))
-			   {   document.getElementById("zipCode").value = 'Enter Valid Zipcode';
-			       document.getElementById("zipCode").style.color="red";
-		           return false; }
+   function  submitp1()
+		  {
+
 		   }
-		  var email=document.getElementById("email").value;
-		  if( (email=="")|| (email=="Enter Email"))
-		   {  document.getElementById("email").value = 'Enter Email';
-			  document.getElementById("email").style.color="red";
-		      return false; }
-		  else{
-		    	var y=email;
-				var atpos=y.indexOf("@");
-				var dotpos=y.lastIndexOf(".");
-			    if (atpos<1 || dotpos<atpos+2 || dotpos+2>=y.length)
-  						{ document.getElementById("email").value = 'Enter Valid Email';
-			              document.getElementById("email").style.color="red";
-		                  return false; }
-		       }
-		    
-		 document.getElementById("td4").style.display='none'; 
- 	     document.getElementById("td6").style.display='block';  return false; 
-    }
-function change1(that){
-  if( (that.value=="Enter First Name")||(that.value=="")||(that.value=="Enter Last Name")||(that.value=="Enter Address")||(that.value=="Enter City")||(that.value=="Enter State") ||(that.value=="Enter Valid Zipcode") ||(that.value=="Enter Zipcode") ||(that.value=="Enter Valid Email") ||(that.value=="Enter Email")||(that.value=="Enter Coupon Code") )
+
+		document.getElementById("td99").style.display='none';
+		$(this).scrollTop(0);
+
+		   if (window.XMLHttpRequest)
+              { xmlhttp=new XMLHttpRequest(); }
+           else
+              { xmlhttp=new ActiveXObject("Microsoft.XMLHTTP"); }
+
+		   xmlhttp.onreadystatechange=function()
+              { if (xmlhttp.readyState==4 && xmlhttp.status==200)
+		         { document.getElementById("td4").innerHTML=xmlhttp.responseText; }
+              }
+		   xmlhttp.open("GET","submitp1.php?prd="+prd+"&duration="+duration+"&fname="+fname+"&lname="+lname+"&add="+add+"&city="+city+"&state="+state+"&zipcode="+zipcode+"&email="+email+"&password="+password+"&pin="+pin+"&pin_hint="+pin_hint+"&master_pin="+master_pin,true);
+           xmlhttp.send();
+           return false;
+		  }
+
+   function acc_rej(str)
+     {
+     	police=str;
+     	//alert("acc-rej"+window.police);
+     	$.colorbox.close();
+     }
+	function chk(args)
+	  {
+
+	  }
+	  function chk_term_fwd()
+	  {
+
+	  }
+  function chk_discount()
+   {
+
+   }
+   function change1(that){
+  if( (that.value=="Enter First Name")||(that.value=="")||(that.value=="Enter Last Name")||(that.value=="Enter Address")||(that.value=="Enter City")||(that.value=="Enter State") ||(that.value=="Enter Valid Zipcode") ||(that.value=="Enter Zipcode") ||(that.value=="Enter Valid Email") ||(that.value=="Enter Email")||(that.value=="Enter Coupon Code") || (that.value=="Enter Password") || (that.value=="Enter Pin")|| (that.value=="Enter Pin Hint")|| (that.value=="Enter Master Pin"))
      {
       that.value="";
       that.style.color = "grey";
 	 }
 }
 
-   function  submitp1()
-		  {  
-		   var prd=2;
-		   var duration=$("input[name='subscription']:checked").val();
-		   var fname=document.getElementById("firstName").value;
-		   var lname=document.getElementById("lastName").value;
-		   var add=document.getElementById("address").value;
-		   var city=document.getElementById("city").value;
-		   var state=document.getElementById("state").value;
-		   var zipcode=document.getElementById("zipCode").value;
-		   var email=document.getElementById("email").value;
-		   
-		   var fnames=document.getElementById("firstNames").value;
-		 if( (fnames=="")|| (fnames=="Enter First Name"))
-		  {  document.getElementById("firstNames").value = 'Enter First Name';
-			 document.getElementById("firstNames").style.color="red";
-		     return false; }
-		 var lnames=document.getElementById("lastNames").value;
-		 if( (lnames=="")|| (lnames=="Enter Last Name"))
-		  {  document.getElementById("lastNames").value = 'Enter Last Name';
-			 document.getElementById("lastNames").style.color="red";
-		     return false; }
-		  var adds=document.getElementById("addresss").value;	
-		  if( (adds=="")|| (adds=="Enter Address"))
-		  {  document.getElementById("addresss").value = 'Enter Address';
-			 document.getElementById("addresss").style.color="red";
-		     return false; } 
-		  var citys=document.getElementById("citys").value;
-		   if( (citys=="")|| (citys=="Enter City"))
-		   {  document.getElementById("citys").value = 'Enter City';
-			  document.getElementById("citys").style.color="red";
-		      return false; }
-		  var states=document.getElementById("states").value;
-		   if( (states=="")|| (state=="Enter State"))
-		   {  document.getElementById("states").value = 'Enter State';
-			  document.getElementById("states").style.color="red";
-		      return false; }
-		  var zipcodes=document.getElementById("zipCodes").value;
-		   if( (zipcodes=="")|| (zipcodes=="Enter Zipcode"))
-		   {  document.getElementById("zipCodes").value = 'Enter Zipcode';
-			  document.getElementById("zipCodes").style.color="red";
-		      return false; }
-		   else
-		   {
-			   if(isNaN(zipcodes))
-			   {   document.getElementById("zipCodes").value = 'Enter Valid Zipcode';
-			       document.getElementById("zipCodes").style.color="red";
-		           return false; }
-		   }
-		  var emails=document.getElementById("emails").value;
-		  if( (emails=="")|| (emails=="Enter Email"))
-		   {  document.getElementById("emails").value = 'Enter Email';
-			  document.getElementById("emails").style.color="red";
-		      return false; }
-		  else{
-		    	var y=emails;
-				var atpos=y.indexOf("@");
-				var dotpos=y.lastIndexOf(".");
-			    if (atpos<1 || dotpos<atpos+2 || dotpos+2>=y.length)
-  						{ document.getElementById("emails").value = 'Enter Valid Email';
-			              document.getElementById("emails").style.color="red";
-		                  return false; }
-		       }		   
-		   if (window.XMLHttpRequest)
-              { xmlhttp=new XMLHttpRequest(); }
-           else
-              { xmlhttp=new ActiveXObject("Microsoft.XMLHTTP"); }
-          
-		   xmlhttp.onreadystatechange=function()
-              { if (xmlhttp.readyState==4 && xmlhttp.status==200)
-		         { document.getElementById("td6").innerHTML=xmlhttp.responseText; }
-              } 
-		   xmlhttp.open("GET","submitp2.php?prd="+prd+"&fname="+fname+"&lname="+lname+"&add="+add+"&city="+city+"&state="+state+"&zipcode="+zipcode+"&email="+email+"&fnames="+fnames+"&lnames="+lnames+"&adds="+adds+"&citys="+citys+"&states="+states+"&zipcodes="+zipcodes+"&emails="+emails,true);
-           xmlhttp.send();
-           return false;
-		  }
-
-   function acc_rej(str)
-     { 
-     	police=str;
-     	//alert("acc-rej"+window.police);
-     	$.colorbox.close();     	
-     }
-   function chk_term_fwd()
-	  {
-	   //var test=police;
-	   //alert("test="+test);
-	  	if( (police=="no") || (police=="") || (!police))
-	  	 {
-	  	 	alert("The 'Purchase' cannot be completed until you review and accept the license agreement.");
-	  	 	return false;
-	  	 }
-	  	else
-	  	{    // alert("alert in alert");
- 	  		   document.getElementById("td4").style.display='block'; 
- 	  		   document.getElementById("td2").style.display='none'; 
-	  	}
-	  }
-  function chk_discount()
-   {
-   	       var prd="p1";
-		   var id= document.getElementById("p_id").value;
-		   var price= document.getElementById("price").value;
-		   var scharge= document.getElementById("shipcharge").value;
-		   var tot= document.getElementById("total").value;
-		   var code= document.getElementById("coupon").value;
-		   if( (code=="")|| (code=="Enter Coupon Code"))
-		     {  document.getElementById("coupon").value = 'Enter Coupon Code';
-			  document.getElementById("coupon").style.color="red";
-		      return false; }
-		   
-		   if (window.XMLHttpRequest)
-              { xmlhttp=new XMLHttpRequest(); }
-           else
-              { xmlhttp=new ActiveXObject("Microsoft.XMLHTTP"); }
-          
-		   xmlhttp.onreadystatechange=function()
-              { if (xmlhttp.readyState==4 && xmlhttp.status==200)
-		         { document.getElementById("td6").innerHTML=xmlhttp.responseText; }
-              } 
-		   xmlhttp.open("GET","submitp2.php?id="+id+"&price="+price+"&code="+code+"&scharge="+scharge+"&tot="+tot,true);
-           xmlhttp.send();
-           return false;
-   } 
 </script>
- 
+
 </head>
 
 <body>
 	<div id="wrapper">
     <!--Header-->
         <div id="header">
-          <div class="container">
-            <h1 class="logo"><a href="index.html" title="Gate Keeper"><img src="images/logo.png" width="316" height="289" alt="Gate Keeper" /></a></h1>
+        	<div class="container">
+            	<h1 class="logo"><a href="index.html" title="Gate Keeper"><img src="images/logo.png" width="316" height="289" alt="Gate Keeper" /></a></h1>
                 <div class="nav">
-                	<ul class="navbar">
-  <li class="first"><a href="index.html" title="Home">Home</a></li>
-                        <li><a href="faqs.html" title="How To">How To</a></li>
-                    	<li><a href="product.html" title="Products"  class="active">Products</a></li>
-                    	<li><a href="download.html" title="Download">Download</a></li>
-                    	                    </ul>
+                	 <ul class="navbar">
+                                            <li class="first"><a href="index.html" title="Home">Home</a></li>
+                                            <li><a href="faqs.html" title="How To">How To</a></li>
+                                            <li><a href="product.html" title="Products">Products</a></li>
+                                            <li><a href="download.html" title="Download">Download</a></li>
+                                                                </ul>
                 </div>
             </div>
         </div>
@@ -247,68 +104,63 @@ function change1(that){
     <!--Inner Page Cantent-->
         <div class="pageCantent innerCantent">
         	<div class="container">
-            	 <div class="cart1 cf" id="changesize">
-            		<!---- tr1 td1 left ----->
-      <div id="td1" class="Subscription passLeft last" >
-      <div id="support-term-info-div" style="margin-top : 4em;">
-        <div id="subscription-info-1" style="display: block;">
-           <p>“The LogiKey™ offers a more convenient and secure way to  lock your computer, and sign-in to 
-your personal accounts.  The LogiKey™ is a USB device that is built with military grade encryption for secure login and account access.”</p>
+               <div class="cart1 cf" id="changesize">
+        <div class="fLeft activText"><div class="Subscription passLeft last" id="subscription-info-1" style="display: block;">
+            <h2>Free Trial</h2>
+            <p>***Trial Lasts 30 Days</p>
         </div>
-     </div>
+
+
 </div>
 
-<!--- tr1 td2 start-------->
 
- <div class="passRight" id="td2">
-    <form class="form-horizontal" name="pro" id="pro">
-       
-            <h2>Logikey</h2>
-            <!-- Multiple Radios -->
-            
-                <label>Product price: $19.99<?php $sqlt="SELECT * FROM shipping_charge WHERE s_id=1";
-                $total=19.99;
-	            $resultt=mysql_query($sqlt);
-	            $rowst = mysql_fetch_array($resultt);
-                $scharge=$rowst['charge']; //echo $total; ?></label>
-  				<label>Shipping Charge: $<?php echo $scharge; ?></label>
-  				<label>Total: $<?php $tot=$total+$scharge; echo $tot; ?></label>
-           
-            
+ <div class="formRight passRight" id="td2">
+    <form class="form-horizontal pro" name="pro" id="pro1">
+        <fieldset>
+            <!-- Form Name -->
+            <legend>Gatekeeper Pro</legend>
+
             <!-- Text input-->
             <div class="control-group">
-                
+                <label for="email" class="control-label">Email</label>
+                <div class="controls">
+                    <input type="text" class="input-xlarge" name="email" id="email">
+                <label for="password" class="control-label">Password</label>
+                    <input type="password" class="input-xlarge" name="password" id="password">
+                </div>
             </div>
-         
+
             <!-- Select Basic -->
-           
+
 
             <!-- Button -->
             <div class="control-group">
                 <label for="purchase" class="control-label"></label>
                 <div class="controls">
-                <p class="">“In order to complete your purchase, you must agree to our License Agreement.  Please click 
-“License Agreement” below to accept our Terms and Conditions, then proceed to Purchase.</p>
+                    <a data-toggle="modal" class="inline btn" role="button" href="#inline_content">License Agreement
+                    </a>
+ 				</div>
+                <div class="controls">
                     <!--<button id="purchase" name="purchase" class="btn btn-primary" disabled>Purchase</button>-->
-					<a data-toggle="modal" class="inline btn" role="button" href="#inline_content">License Agreement</a><br>
                     <a class="btn btn-primary" name="purchase" id="purchase" onclick="chk_term_fwd();">Purchase</a>
-                    <!--<p><a class='inline' href="#inline_content">Inline HTML</a></p> -->
+                </div>
+
+                                   <!--<p><a class='inline' href="#inline_content">Inline HTML</a></p> -->
                 </div>
             </div>
           </fieldset>
     </form>
-</div>
+
 
  <!--- tr1 td2 over ------>
 
  <!---- tr2 td1 start---------->
 
-  
- 
- <!----- tr2 td1 over ------>
- <div class="formRight passRight" id="td4" style="display:none;">
-      <form class="form-horizontal" >
 
+
+ <!----- tr2 td1 over ------>
+  <div class="formRight passRight" id="td4" style="display:none;">
+   <form class="form-horizontal" name="pro" id="pro">
   	<fieldset>
             <legend>Billing Information</legend>
             <div class="control-group">
@@ -347,67 +199,63 @@ your personal accounts.  The LogiKey™ is a USB device that is built with milit
                     <input type="text" class="input-xlarge" value="" placeholder="Zip Code" name="zipCode" id="zipCode" onfocus="change1(this);">
                 </div>
             </div>
+            <legend>Account Information</legend>
             <div class="control-group">
-                <label for="zipCode" class="control-label">Email</label>
+                <label for="email" class="control-label">User Name</label>
                 <div class="controls">
                     <input type="text" class="input-xlarge" value="" placeholder="Email" name="email" id="email" onfocus="change1(this);">
                 </div>
             </div>
-            <div class="control-group">
+			<div class="control-group">
+                <label for="email1" class="control-label">Please reconfirm your user name</label>
                 <div class="controls">
-                    <button class="btn btn-primary" name="submit" id="submit-billing-info" onclick="return get_shipping();">Submit</button>
-                </div>
-            </div>
-        </fieldset>
-    </form>
- </div>
- 
- 
- 		
-    
-    <div id="td6" style="display:none;" class="formRight passRight"><form class="form-horizontal">
-        <fieldset>
-            <legend>Shipping Information</legend>
-            <div class="control-group">
-                <label for="firstName" class="control-label">First Name</label>
-                <div class="controls">
-                    <input type="text" class="input-xlarge" value="" placeholder="First Name" name="firstNames" id="firstNames" onfocus="change1(this);">
+                    <input type="text" class="input-xlarge" value="" placeholder="Reconfirm your email address" name="email1" id="email1" onfocus="change1(this);">
                 </div>
             </div>
             <div class="control-group">
-                <label for="lastName" class="control-label">Last Name</label>
+                <label for="password" class="control-label">Password</label>
                 <div class="controls">
-                    <input type="text" class="input-xlarge" value="" placeholder="Last Name" name="lastNames" id="lastNames" onfocus="change1(this);">
+                    <input type="password" class="input-xlarge" value="" placeholder="Password" name="password" id="password" onfocus="change1(this);">
                 </div>
+
             </div>
             <div class="control-group">
-                <label for="address" class="control-label">Address</label>
+                <label for="password1" class="control-label">Please reconfirm your Password</label>
                 <div class="controls">
-                    <input type="text" class="input-xlarge" value="" placeholder="Address" name="addresss" id="addresss" onfocus="change1(this);">
+                    <input type="password" class="input-xlarge" value="" placeholder="Reconfirm your Password" name="password1" id="password1" onfocus="change1(this);">
                 </div>
             </div>
-            <div class="control-group">
-                <label for="city" class="control-label">City</label>
+			<div class="control-group">
+                <label for="pin" class="control-label">Pin</label>
                 <div class="controls">
-                    <input type="text" class="input-xlarge" value="" placeholder="City" name="citys" id="citys" onfocus="change1(this);">
+                    <input type="text" class="input-xlarge" value="" placeholder="Pin" name="pin" id="pin" onfocus="change1(this);">
+                </div>
+
+            </div>
+			<div class="control-group">
+                <label for="pin1" class="control-label">Please reconfirm your Pin</label>
+                <div class="controls">
+                    <input type="text" class="input-xlarge" value="" placeholder="Reconfirm your Pin" name="pin1" id="pin1" onfocus="change1(this);">
                 </div>
             </div>
-            <div class="control-group">
-                <label for="state" class="control-label">State</label>
+			<div class="control-group">
+                <label for="pin_hint" class="control-label">Pin Hint</label>
                 <div class="controls">
-                    <input type="text" class="input-xlarge" value="" placeholder="State" name="states" id="states" onfocus="change1(this);">
+                    <input type="text" class="input-xlarge" value="" placeholder="Pin Hint" name="pin_hint" id="pin_hint" onfocus="change1(this);">
                 </div>
+
             </div>
-            <div class="control-group">
-                <label for="zipCode" class="control-label">Zip Code</label>
+			<div class="control-group">
+                <label for="master_pin" class="control-label">Master Pin</label>
                 <div class="controls">
-                    <input type="text" class="input-xlarge" value="" placeholder="Zip Code" name="zipCodes" id="zipCodes" onfocus="change1(this);">
+                    <input type="password" class="input-xlarge" value="" placeholder="Master Pin" name="master_pin" id="master_pin" onfocus="change1(this);">
                 </div>
+
             </div>
-            <div class="control-group">
-                <label for="zipCode" class="control-label">Email</label>
+			<div class="control-group">
+                <label for="master_pin1" class="control-label">Please reconfirm your Master Pin</label>
                 <div class="controls">
-                    <input type="text" class="input-xlarge" value="" placeholder="Email" name="emails" id="emails" onfocus="change1(this);">
+                    <input type="password" class="input-xlarge" value="" placeholder="Reconfirm your Master Pin" name="master_pin1" id="master_pin1" onfocus="change1(this);">
                 </div>
             </div>
             <div class="control-group">
@@ -418,22 +266,19 @@ your personal accounts.  The LogiKey™ is a USB device that is built with milit
         </fieldset>
     </form>
  </div>
- 
-    </div>
+</div>
 
- 
- 	
-    <div id="td7" style="display:none;"><h1>paypal form </h1></div>
 
- 
- 
- 
- 
-                   
-                </div>
-                
-            </div>
-        </div>
+
+
+
+
+
+<!--    <div id="td7" style="display:none;"><h1>paypal form </h1></div>-->
+
+ </div>
+</div>
+</div>
     <!--Inner Page Cantent End-->
     <!--Footer-->
     	<div id="footer">
@@ -479,7 +324,7 @@ your personal accounts.  The LogiKey™ is a USB device that is built with milit
 			<div id='inline_content' style='padding:10px; background:#fff;'>
 			<div id="divChoices">
    <div class="modal-body">
-   <p class="popup_content"><strong>Standard End User License Agreement (EULA)</strong></p>
+        <p class="popup_content"><strong>Standard End User License Agreement (EULA)</strong></p>
         <p class="popup_content"><strong>PLEASE READ CAREFULLY BEFORE USING THIS PRODUCT: </strong>This End-User License Agreement ("EULA") is a legal agreement between (a) you (either an individual or a single entity) and (b) AuthEntry LLC ("AuthEntry") that governs your use of any Software Product, installed on or made available by AuthEntry.
 </p>
 <p class="popup_content"><strong>BY CLICKING "I AGREE", OR BY TAKING ANY STEP TO INSTALL OR USE THE SOFTWARE PRODUCT, YOU (1) REPRESENT THAT YOU ARE OF THE LEGAL AGE OF MAJORITY IN YOUR STATE, PROVINCE JURISDICTION OF RESIDENCE AND, IF APPLICABLE, YOU ARE DULY AUTHORIZED BY YOUR EMPLOYER TO ENTER INTO THIS CONTRACT AND (2) YOU AGREE TO BE BOUND BY THE TERMS OF THIS EULA. IF YOU DO NOT ACCEPT THE EULA TERMS, DO NOT USE THE SOFTWARE PRODUCT.
@@ -531,7 +376,7 @@ your personal accounts.  The LogiKey™ is a USB device that is built with milit
 <p class="popup_content"><strong>ENTIRE AGREEMENT.</strong> This EULA is the entire agreement between you and AuthEntry relating to the Software Product and it supersedes all prior or contemporaneous oral or written communications, proposals and representations with respect to the Software Product or any other subject matter covered by this EULA. To the extent the terms of any AuthEntry policies or programs for support services conflict with the terms of this EULA, the terms of this EULA shall control. In the event of a conflict between the English and any non-English versions of this EULA, the English version shall govern. If any provision of this EULA is held by a court of competent jurisdiction to be contrary to law, such provision will be changed and interpreted so as to best accomplish the objectives of the original provision to the fullest extent allowed by law and the remaining provision of the EULA will remain in force and effect. Sections 5, 6, 9, 10, 11, 14 and 15 shall survive termination of this EULA.
 </p>
 <p class="popup_content">&copy; 2014 AuthEntry LLC. The only warranties for AuthEntry Software Products and services are set forth in the express warranty statements accompanying such products and services. Nothing herein should be construed as constituting an additional warranty. AuthEntry shall not be liable for technical or editorial errors or omissions contained herein. Rev. 7/14
-</p>    
+</p>
     </div>
     <div class="modal-footer">
         <button class="btn" id="decline-agreement" onclick="acc_rej('no');">Decline</button>

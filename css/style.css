@@ -148,11 +148,12 @@ img{max-width:100%; border:0 none; height:auto; display:inline-block;}
 	.identityWorth p{text-align:center; font-size:22px; padding:25px 0;}
 	.categotys{border-top:1px solid #c3c3c3;}
 	.categotys{}
-	.catBlock{width:31.75%; float:left;}
+	.catBlock{width:50%; float:left;}
+	/*.catBlock{width:31.75%; float:left;}*/
 	.catBlock2{width:36.5%; }
 	.catBlock .cat{padding-right:28px; padding-left:28px; padding-bottom:50px;}
-	.catBlock .catFt{padding-left:0;}
-	.catBlock .catSd{border-left:1px solid #c3c3c3; border-right:1px solid #c3c3c3;}
+	.catBlock .catFt{padding-left:28px; border-left :1px solid #c3c3c3;}
+	.catBlock .catSd{border-right:1px solid #c3c3c3; border-left:1px solid #c3c3c3;}
 	.catBlock .catTd{padding-right:0;}
 	.catBlock .cat h3{font-size:24px; color:#0066cb; padding:25px 0;}
 	.catBlock .cat h3 sup{font-size:14px;position:relative;bottom:10px;}
@@ -540,4 +541,3 @@ box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset;transition: border 0.2s linear 
     font-family: Arial;
     font-weight: bold; color: #000;
 }
-

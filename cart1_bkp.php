@@ -178,11 +178,10 @@ function chk_paypal()
             	<h1 class="logo"><a href="index.html" title="Gate Keeper"><img src="images/logo.png" width="316" height="289" alt="Gate Keeper" /></a></h1>
                 <div class="nav">
                 	<ul class="navbar">
-                    	<li class="first"><a href="product.html" title="Products"  class="active">Products</a></li>
-                        <li><a href="how_it_works.html" title="How it Works">How it Works</a></li>
-                        <li><a href="password101.html" title="Password 101">Password 101</a></li>
-                        <li><a href="how_we_differ.html" title="We’re Different">We’re Different</a></li>
-                        <li class="last"><a href="more_security.html" title="More Security">More Security</a></li>
+                	    <li class="first"><a href="index.html" title="Home">Home</a></li>
+                        <li><a href="faqs.html" title="How To">How To</a></li>
+                    	<li><a href="product.html" title="Products"  class="active">Products</a></li>
+                    	<li><a href="download.html" title="Download">Download</a></li>
                     </ul>
                 </div>
             </div>
@@ -370,7 +369,6 @@ tr1 td2 start-------->
                     <div class="column">
                         <h2>Help</h2>
                         <ul>
-                            <li><a href="sitemap.html" title="Sitemap">Sitemap</a></li>
                             <li><a href="privacy_policy.html" title="Privacy Policy">Privacy Policy</a></li>
                             <li><a href="term_of_use.html" title="Terms & Conditions">Terms & Conditions</a></li>
                         </ul>
