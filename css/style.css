@@ -105,7 +105,7 @@ img{max-width:100%; border:0 none; height:auto; display:inline-block;}
 
 /*pageCantent
 ===============================================================================*/
-.pageCantent{background:url(../images/bg.jpg) repeat-x center 0; padding:35px 0 0 0;}
+/*.pageCantent{background:url(../images/bg.jpg) repeat-x center 0; padding:35px 0 0 0;}*/
 .tc{text-align:center;}
 	/*Home Cantent
 	===============================================================================*/
@@ -322,7 +322,7 @@ img{max-width:100%; border:0 none; height:auto; display:inline-block;}
 /*Footer End
 ===============================================================================*/
 
-.pageCantent {background: url("../images/bg.jpg") repeat-x scroll center 0 rgba(0, 0, 0, 0);padding: 35px 0 0;}
+/*.pageCantent {background: url("../images/bg.jpg") repeat-x scroll center 0 rgba(0, 0, 0, 0);padding: 35px 0 0;}*/
 #signup-info-div {height: 500px;overflow: auto;position: relative;}
 
 .cart1 .passLeft{float:left;border-bottom:3px solid #dcdcdc;padding:0 0 0 0; width:300px; position:relative; z-index:11;}
