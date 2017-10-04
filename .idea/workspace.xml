@@ -1,30 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4fed9998-7490-4130-a8a3-4fca35ddb165" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cart1.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cart1_bkp.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cart2.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/config.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/old/404.shtml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/old/home.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/old/layout-styles.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/paypal.class.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/process.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/process_bkp.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/process_hack.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/submitp1.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/submitp1_bkp.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/submitp2.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test-ta.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test.php" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/faqs.html" afterPath="$PROJECT_DIR$/faqs.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/freeTrial.php" afterPath="$PROJECT_DIR$/freeTrial.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/product.html" afterPath="$PROJECT_DIR$/product.html" />
-    </list>
+    <list default="true" id="4fed9998-7490-4130-a8a3-4fca35ddb165" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -354,7 +331,7 @@
       <updated>1506942961625</updated>
       <workItem from="1506942963015" duration="6902000" />
       <workItem from="1507026922962" duration="3264000" />
-      <workItem from="1507069488647" duration="1878000" />
+      <workItem from="1507069488647" duration="1913000" />
     </task>
     <task id="LOCAL-00001" summary="Removed pages that were not being used">
       <created>1507028230550</created>
@@ -370,11 +347,18 @@
       <option name="project" value="LOCAL" />
       <updated>1507028995865</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Removed unused content">
+      <created>1507114837848</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1507114837848</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12044000" />
+    <option name="totallyTimeSpent" value="12079000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1445" y="77" width="1242" height="864" extended-state="0" />
@@ -407,7 +391,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Removed pages that were not being used" />
     <MESSAGE value="Removed pagecontent background that made pages hard to read" />
-    <option name="LAST_COMMIT_MESSAGE" value="Removed pagecontent background that made pages hard to read" />
+    <MESSAGE value="Removed unused content" />
+    <option name="LAST_COMMIT_MESSAGE" value="Removed unused content" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
