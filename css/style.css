@@ -513,16 +513,16 @@ box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset;transition: border 0.2s linear 
     font-family: Arial;
     font-weight: bold; color: #000;
 }
-
+/* TAKODA'S CSS */
 #homepageContainer{
 margin: 20px auto;
 }
 
-#faqContainer{
-	margin: 20px auto;
-}
 #productContainer{
 	margin: 20px auto;
+}
+#faqContainer{
+		margin: 20px auto;
 }
 
 #gatekeeperProductDescription{
@@ -541,7 +541,6 @@ margin: 20px auto;
 
 .btnDownload:hover {
 	background: 0px 0px linear-gradient(to bottom, #8fd533 0px, #20800d 100%);
-
 	border-color: #6fb02f;
 }
 
@@ -557,7 +556,7 @@ a:hover, a:active, a:focus{
 }
 
 .table-responsive th {
-font-weight: 700;
+    font-weight: 700;
 	text-align: center;
 }
 
@@ -570,4 +569,14 @@ font-weight: 700;
 
 #macDownload, #windowDownload{
 	margin: 10px 0;
+}
+
+.setupInstruction{
+	color: #0043ff;;
+    font-weight: 700;
+    font-size: 1.5em;
+	margin: 20px auto;
+}
+#firstStepHR{
+	margin-top: 30px;
 }

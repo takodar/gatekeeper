@@ -6,12 +6,9 @@
 <title>FAQs | Authentry Gatekeeper Pro</title>
 <meta name="description" content="Authentry is the leading provider of tokenless and token-based Multi-factor Authentication, Identity Access Management and Two-factor Secure Desktop login in one seamless solution.">
 <meta name="keywords" content="Authentry, Gatekeeper Pro, LogiKey, Secure Password Generator, Password Manager, Password Management, Password Recovery, Identity Theft Protection, Password Vault, Password Safe, Two Factor Authentication, 2 Factor Authentication, Duo Security, Last Pass, Yubico, YubiKey">
-
 <link rel="stylesheet" type="text/css" href="css/style.css"/>
+<link rel="stylesheet" type="text/css" href="css/introjs.css"/>
 <script type="text/javascript" src="js/jquery.min.js"></script>
-<!--[if lte IE 8]>
-    <link href="css/ie.css" rel="stylesheet" type="text/css" media="all" />
-<![endif]-->
 </head>
 
 <body>
@@ -26,6 +23,7 @@
                         <li><a href="faqs.html" class="active" title="How To">How To</a></li>
                         <li><a href="product.html" title="Products">Products</a></li>
                         <li><a href="download.php" title="Download">Download</a></li>
+                        <li><a title="Help" onclick="startHelper()">Help</a></li>
                     </ul>
                 </div>
             </div>
@@ -46,15 +44,43 @@
     <!--Inner Page Cantent-->
         <div class="pageCantent innerCantent">
             <div class="containerOld" id="faqContainer">
-			<h1>1) Click Facebook Google LinkedIn Twitter Button To Create An Account </h1>
+			<iframe src='https://trssolutionsllc-my.sharepoint.com/personal/mike_trssolutionsllc_onmicrosoft_com/_layouts/15/guestaccess.aspx?docid=01fc55bbf0d9b4ca18a09289a1fd474d3&authkey=ASA50hNX_JMv1YefJY_S7cM&action=embedview&wdAr=1.7777777777777777&wdEaa=0' width='962px' height='565px' frameborder='0'>This is an embedded <a target='_blank' href='https://office.com'>Microsoft Office</a> presentation, powered by <a target='_blank' href='https://office.com/webapps'>Office Online</a>.</iframe>                <div class="password101 cf">
+			<hr id="firstStepHR" />
+			<p class="setupInstruction" data-intro="hellow">1) Click Facebook Google LinkedIn Twitter Button To Create An Account </p>
 			<img src="images/step1.jpg" />
-			<hr />
-			<h1>2) Choose the Account That You Would Like To Register With</h1>
+			<hr/>
+			<p class="setupInstruction" data-intro="step 2">2) Choose the Account That You Would Like To Register With</p>
 			<img src="images/step2.jpg" />
-			<hr />
-			<h1>3) We Chose LinkedIN to Create Our Account</h1>
+			<hr/>
+			<p class="setupInstruction">3) We Chose LinkedIN to Create Our Account</p>
 			<img src="images/step3.jpg" />
-<iframe src='https://trssolutionsllc-my.sharepoint.com/personal/mike_trssolutionsllc_onmicrosoft_com/_layouts/15/guestaccess.aspx?docid=01fc55bbf0d9b4ca18a09289a1fd474d3&authkey=ASA50hNX_JMv1YefJY_S7cM&action=embedview&wdAr=1.7777777777777777&wdEaa=0' width='962px' height='565px' frameborder='0'>This is an embedded <a target='_blank' href='https://office.com'>Microsoft Office</a> presentation, powered by <a target='_blank' href='https://office.com/webapps'>Office Online</a>.</iframe>                <div class="password101 cf">
+			<hr/>
+			<p class="setupInstruction">4) ....</p>
+			<img src="images/step4.jpg" />
+			<hr/>
+			<p class="setupInstruction">5)....</p>
+			<img src="images/step5.jpg" />
+			<hr/>
+			<p class="setupInstruction">6) ....</p>
+			<img src="images/step6.jpg" />
+			<hr/>
+			<p class="setupInstruction">7) ....</p>
+			<img src="images/step7.jpg" />
+			<hr/>
+			<p class="setupInstruction">8) ....</p>
+			<img src="images/step8.jpg" />
+			<hr/>
+			<p class="setupInstruction">9) ....</p>
+			<img src="images/step9.jpg" />
+			<hr/>
+			<p class="setupInstruction">10) ....</p>
+			<img src="images/step10.jpg" />
+			<hr/>
+			<p class="setupInstruction">11)....</p>
+			<img src="images/step11.jpg" />
+			<hr/>
+			<p class="setupInstruction">12) ....</p>
+			<img src="images/step12.jpg" />
                     <div class="faqs">
                         <h2></h2>
                         <ul>
@@ -101,9 +127,6 @@
                         <ul class="icon cf">
                             <li><a target="_blank" href="https://www.facebook.com/pages/Gatekeeperpro/1510819719133844" title="Facebook"><span></span>Facebook</a></li>
                             <li><a target="_blank" href="https://twitter.com/GateKeeperPro99" title="Twitter"><span></span>Twitter</a></li>
-                            <!--<li><a href="#" title="Linkedin"><span></span>Linkedin</a></li>-->
-                            <!--<li><a href="#" title="Google+"><span></span>Google+</a></li>-->
-                            <!--<li><a href="#" title="YouTube"><span></span>YouTube</a></li>-->
                         </ul>
                     </div>
                 </div>
@@ -121,5 +144,12 @@
 <script type="text/javascript" src="js/general.js"></script>
 <script type="text/javascript" src="js/utils.js"></script>
 <script type="text/javascript" src="js/viewportSize-min.js"></script>
+<script>
+function startHelper() {
+introJs().setOption('tooltipPosition', 'bottom').start();
+}
+</script>
+<script type="text/javascript" src="js/intro.js"></script>
+
 </body>
 </html>
