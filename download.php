@@ -14,9 +14,7 @@
 
     <link rel="stylesheet" href="css/font-awesome-4.7.0/css/font-awesome.min.css">
     <script type="text/javascript" src="js/jquery.min.js"></script>
-    <!--[if lte IE 8]>
-    <link href="css/ie.css" rel="stylesheet" type="text/css" media="all"/>
-    <![endif]-->
+
 </head>
 
 <body>
@@ -55,13 +53,13 @@
 
                         if($os === "Windows")
                         {
-echo " <p><a class='btnOld active btnDownload' href='images/affordable-icon.png' id='windowDownload' download>
+echo " <p><a class='btnOld active btnDownload' href='images/WINDOWS' id='windowDownload' download>
                                                              Download Now <i class='fa fa-download'></i> </a></p>
                                                          </p>";
                         }
                         elseif($os === "Mac")
                         {
-                           echo " <p><a class='btnOld active btnDownload' id='macDownload' href='images/babal.png' download>
+                           echo " <p><a class='btnOld active btnDownload' id='macDownload' href='images/MAC' download>
                                                              Download Now <i class='fa fa-download'></i> </a></p>
                                                          </p>";
                         }
