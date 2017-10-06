@@ -10,8 +10,8 @@
     <meta name="keywords"
           content="Gatekeeper Pro, Online Password Manager, Two Factor Password Manager, Mobile Password Manager,  Safe Passwords">
     <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" href="css/style.css"/>
-
+<link rel="stylesheet" type="text/css" href="css/introjs.css"/>
+	<link rel="stylesheet" type="text/css" href="css/style.css"/>
     <link rel="stylesheet" href="css/font-awesome-4.7.0/css/font-awesome.min.css">
     <script type="text/javascript" src="js/jquery.min.js"></script>
 
@@ -27,9 +27,10 @@
             <div class="navOld">
                 <ul class="navbarOld">
                     <li class="first"><a href="index.html" title="Home">Home</a></li>
-                    <li><a href="faqs.html" title="How To">How To</a></li>
+                    <li><a href="howTo.html" title="How To">How To</a></li>
                     <li><a href="product.html" title="Products">Products</a></li>
                     <li><a href="#" class="active" title="Download">Download</a></li>
+					<li><i id="btnHelp" title="Help" onclick="startHelper()" class="fa fa-question-circle"></i></li>
                 </ul>
             </div>
         </div>
@@ -129,7 +130,7 @@ echo " <p><a class='btnOld active btnDownload' href='images/WINDOWS' id='windowD
                     <h2>Company</h2>
                     <ul>
                         <li><a href="about.html" title="About">About</a></li>
-                        <li><a href="faqs.html" title="Faq’s">FAQ’s</a></li>
+                        <li><a href="howTo.html" title="Faq’s">FAQ’s</a></li>
                         <li><a href="contact_us.html" title="Contact us">Contact us</a></li>
                     </ul>
                 </div>

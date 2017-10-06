@@ -9,8 +9,8 @@
           content="Authentry is the leading provider of tokenless and token-based Multi-factor Authentication, Identity Access Management and Two-factor Secure Desktop login in one seamless solution.">
     <meta name="keywords"
           content="Authentry, Gatekeeper Pro, LogiKey, Secure Password Generator, Password Manager, Password Management, Password Recovery, Identity Theft Protection, Password Vault, Password Safe, Two Factor Authentication, 2 Factor Authentication, Duo Security, Last Pass, Yubico, YubiKey">
-    <link rel="stylesheet" type="text/css" href="css/style.css"/>
     <link rel="stylesheet" type="text/css" href="css/introjs.css"/>
+	<link rel="stylesheet" type="text/css" href="css/style.css"/>
     <link rel="stylesheet" href="css/font-awesome-4.7.0/css/font-awesome.min.css">
     <script type="text/javascript" src="js/jquery.min.js"></script>
 </head>
@@ -24,8 +24,8 @@
                                                                            height="289" alt="Gate Keeper"/></a></h1>
             <div class="navOld">
                 <ul class="navbarOld">
-                    <li class="first"><a href="index.html" title="Home">Home</a></li>
-                    <li><a href="faqs.html" class="active" title="How To">How To</a></li>
+                    <li class="first"><a href="index.html" title="Home" id="step4">Home</a></li>
+                    <li><a href="howTo.html" title="How To" id="step5">How To</a></li>
                     <li><a href="product.html" title="Products">Products</a></li>
                     <li><a href="download.php" title="Download">Download</a></li>
                     <li><i id="btnHelp" title="Help" onclick="startHelper()" class="fa fa-question-circle"></i></li>
@@ -51,51 +51,6 @@
     <!--Inner Page Cantent-->
     <div class="pageCantent innerCantent">
         <div class="containerOld" id="faqContainer">
-            <iframe src='https://trssolutionsllc-my.sharepoint.com/personal/mike_trssolutionsllc_onmicrosoft_com/_layouts/15/guestaccess.aspx?docid=01fc55bbf0d9b4ca18a09289a1fd474d3&authkey=ASA50hNX_JMv1YefJY_S7cM&action=embedview&wdAr=1.7777777777777777&wdEaa=0'
-                    width='962px' height='565px' frameborder='0'>This is an embedded <a target='_blank'
-                                                                                        href='https://office.com'>Microsoft
-                Office</a> presentation, powered by <a target='_blank' href='https://office.com/webapps'>Office
-                Online</a>.
-            </iframe>
-            <div class="password101 cf">
-                <hr id="firstStepHR"/>
-                <p class="setupInstruction" data-intro="This is step 1 details....">1) Click Facebook Google LinkedIn Twitter Button To
-                    Create An Account </p>
-                <img src="images/step1.jpg"/>
-                <hr/>
-                <p class="setupInstruction" data-intro="This is step 2 details....">2) Choose the Account That You Would Like To Register
-                    With</p>
-                <img src="images/step2.jpg"/>
-                <hr/>
-                <p class="setupInstruction">3) We Chose LinkedIN to Create Our Account</p>
-                <img src="images/step3.jpg" data-intro="This is step 3 details...."/>
-                <hr/>
-                <p class="setupInstruction">4) ....</p>
-                <img src="images/step4.jpg"/>
-                <hr/>
-                <p class="setupInstruction">5)....</p>
-                <img src="images/step5.jpg"/>
-                <hr/>
-                <p class="setupInstruction">6) ....</p>
-                <img src="images/step6.jpg"/>
-                <hr/>
-                <p class="setupInstruction">7) ....</p>
-                <img src="images/step7.jpg"/>
-                <hr/>
-                <p class="setupInstruction">8) ....</p>
-                <img src="images/step8.jpg"/>
-                <hr/>
-                <p class="setupInstruction">9) ....</p>
-                <img src="images/step9.jpg"/>
-                <hr/>
-                <p class="setupInstruction">10) ....</p>
-                <img src="images/step10.jpg"/>
-                <hr/>
-                <p class="setupInstruction">11)....</p>
-                <img src="images/step11.jpg"/>
-                <hr/>
-                <p class="setupInstruction">12) ....</p>
-                <img src="images/step12.jpg"/>
                 <div class="faqs">
                     <h2></h2>
                     <ul>
@@ -170,12 +125,8 @@
 <script type="text/javascript" src="js/general.js"></script>
 <script type="text/javascript" src="js/utils.js"></script>
 <script type="text/javascript" src="js/viewportSize-min.js"></script>
-<script>
-    function startHelper() {
-        introJs().setOption('tooltipPosition', 'bottom').start();
-    }
-</script>
-<script type="text/javascript" src="js/intro.js"></script>
+<script type="text/javascript" src="js/introjs/intro.js"></script>
+<script type="text/javascript" src="js/introjs/howTo.js"></script>
 
 </body>
 </html>

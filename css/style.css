@@ -577,9 +577,6 @@ a:hover, a:active, a:focus{
     font-size: 1.5em;
 	margin: 20px auto;
 }
-#firstStepHR{
-	margin-top: 30px;
-}
 
 #btnHelp{
 	font-size: 1.5em;
@@ -595,3 +592,21 @@ a:hover, a:active, a:focus{
 .bx-wrapper .bx-caption{
 	margin-bottom: 2%;
 }
+.introjs-helperNumberLayer { 
+    top: -2px;
+    left: -31px;
+}
+
+#howtoIframe{
+	margin-bottom: 20px;
+}
+
+.hrOverride{
+	margin-bottom: 0;
+	border: solid rgba(130, 130, 130, 0.14) 2px;
+}
+
+.CODOFORUM .navbar-clean{
+	background: red;
+}
+
