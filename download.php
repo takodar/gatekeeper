@@ -29,7 +29,7 @@
                     <li class="first"><a href="index.html" title="Home">Home</a></li>
                     <li><a href="faqs.html" title="How To">How To</a></li>
                     <li><a href="product.html" title="Products">Products</a></li>
-                    <li><a href="download.html" class="active" title="Download">Download</a></li>
+                    <li><a href="#" class="active" title="Download">Download</a></li>
                 </ul>
             </div>
         </div>

@@ -580,3 +580,18 @@ a:hover, a:active, a:focus{
 #firstStepHR{
 	margin-top: 30px;
 }
+
+#btnHelp{
+	font-size: 1.5em;
+	margin-top: -5px;
+	color: #2690e2;
+}
+
+#btnHelp:hover{
+	color: rgba(41, 156, 248, 0.79);
+	cursor: pointer;
+}
+
+.bx-wrapper .bx-caption{
+	margin-bottom: 2%;
+}
