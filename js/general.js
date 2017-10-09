@@ -4,10 +4,12 @@
 $(document).ready( function(){
 /*---------------------------------------------------------------------*/
 
-$('.nav').append('<div class="mMenu"></div>').append('<a class="mTreger"><span></span><span></span><span></span></a>');
-$('.mMenu').append($('.navbar').clone());
+$('.navOld').append('<div class="mMenu"></div>').append('<a class="mTreger"><span></span><span></span><span></span></a>');
+$('.mMenu').append($('.navbarOld').clone());
+$('.mMenu').find('#outterHelp').html("<a title='help' onclick='startHelper()'>HELP</a></li>");
+
 $('.mTreger').click(function(){
-	$('.mMenu .navbar').slideToggle();
+	$('.mMenu .navbarOld').slideToggle();
 });
 if($('.slider').length > 0){
 	$('.slider').bxSlider({

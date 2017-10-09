@@ -610,3 +610,7 @@ a:hover, a:active, a:focus{
 	background: red;
 }
 
+.mTreger:hover{
+	cursor: pointer;
+}
+

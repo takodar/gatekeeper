@@ -30,8 +30,8 @@
                     <li><a href="howTo.html" title="How To">How To</a></li>
                     <li><a href="product.html" title="Products">Products</a></li>
                     <li><a href="#" class="active" title="Download">Download</a></li>
-					<li><i id="btnHelp" title="Help" onclick="startHelper()" class="fa fa-question-circle"></i></li>
-                </ul>
+					<li><a href="forum" title="forum">Forum</a></li>
+<li class="last" id="outterHelp"><i id="btnHelp" title="Help" onclick="startHelper()" class="fa fa-question-circle"></i></li>                </ul>
             </div>
         </div>
     </div>
