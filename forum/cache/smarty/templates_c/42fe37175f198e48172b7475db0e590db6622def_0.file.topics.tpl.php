@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.30-dev/44, created on 2017-10-06 20:12:58
+/* Smarty version 3.1.30-dev/44, created on 2017-10-10 15:53:23
   from "C:\Users\regta001\Desktop\testGK\gatekeeper\forum\sites\default\themes\2k18\templates\forum\topics.tpl" */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.30-dev/44',
-  'unifunc' => 'content_59d7d5ba5b2178_69088926',
+  'unifunc' => 'content_59dcdee313fc47_41754412',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '42fe37175f198e48172b7475db0e590db6622def' => 
     array (
       0 => 'C:\\Users\\regta001\\Desktop\\testGK\\gatekeeper\\forum\\sites\\default\\themes\\2k18\\templates\\forum\\topics.tpl',
-      1 => 1503893738,
+      1 => 1507645716,
       2 => 'file',
     ),
   ),
@@ -21,7 +21,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'file:layout.tpl' => 1,
   ),
 ),false)) {
-function content_59d7d5ba5b2178_69088926 (Smarty_Internal_Template $_smarty_tpl) {
+function content_59dcdee313fc47_41754412 (Smarty_Internal_Template $_smarty_tpl) {
 if (!is_callable('smarty_modifier_load_block')) require_once 'C:\\Users\\regta001\\Desktop\\testGK\\gatekeeper\\forum\\sys\\CODOF\\Smarty\\plugins\\modifier.load_block.php';
 if (!is_callable('smarty_modifier_abbrev_no')) require_once 'C:\\Users\\regta001\\Desktop\\testGK\\gatekeeper\\forum\\sys\\CODOF\\Smarty\\plugins\\modifier.abbrev_no.php';
 if (!is_callable('smarty_function_get_children')) require_once 'C:\\Users\\regta001\\Desktop\\testGK\\gatekeeper\\forum\\sys\\CODOF\\Smarty\\plugins\\function.get_children.php';
@@ -33,12 +33,12 @@ $_smarty_tpl->ext->_inheritance->init($_smarty_tpl, true);
 
 
 <?php 
-new Block_body_120242011559d7d5ba5b2177_62584555($_smarty_tpl);
+new Block_body_202118067059dcdee313bdc7_18809659($_smarty_tpl);
 $_smarty_tpl->ext->_inheritance->endChild($_smarty_tpl);
 $_smarty_tpl->_subTemplateRender("file:layout.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, $_smarty_tpl->cache_lifetime, array(), 2, false);
 }
 /* {block 'body'} C:\Users\regta001\Desktop\testGK\gatekeeper\forum\sites\default\themes\2k18\templates\forum\topics.tpl */
-class Block_body_120242011559d7d5ba5b2177_62584555 extends Smarty_Internal_Block
+class Block_body_202118067059dcdee313bdc7_18809659 extends Smarty_Internal_Block
 {
 public $name = 'body';
 public function callBlock(Smarty_Internal_Template $_smarty_tpl) {

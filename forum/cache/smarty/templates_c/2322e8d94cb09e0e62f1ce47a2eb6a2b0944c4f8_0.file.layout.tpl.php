@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.30-dev/44, created on 2017-10-06 20:12:58
+/* Smarty version 3.1.30-dev/44, created on 2017-10-10 15:53:23
   from "C:\Users\regta001\Desktop\testGK\gatekeeper\forum\sites\default\themes\2k18\templates\layout.tpl" */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.30-dev/44',
-  'unifunc' => 'content_59d7d5ba61f779_31845437',
+  'unifunc' => 'content_59dcdee31ad245_78243413',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '2322e8d94cb09e0e62f1ce47a2eb6a2b0944c4f8' => 
     array (
       0 => 'C:\\Users\\regta001\\Desktop\\testGK\\gatekeeper\\forum\\sites\\default\\themes\\2k18\\templates\\layout.tpl',
-      1 => 1503893738,
+      1 => 1507645716,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_59d7d5ba61f779_31845437 (Smarty_Internal_Template $_smarty_tpl) {
+function content_59dcdee31ad245_78243413 (Smarty_Internal_Template $_smarty_tpl) {
 if (!is_callable('smarty_modifier_get_opt')) require_once 'C:\\Users\\regta001\\Desktop\\testGK\\gatekeeper\\forum\\sys\\CODOF\\Smarty\\plugins\\modifier.get_opt.php';
 if (!is_callable('smarty_modifier_load_block')) require_once 'C:\\Users\\regta001\\Desktop\\testGK\\gatekeeper\\forum\\sys\\CODOF\\Smarty\\plugins\\modifier.load_block.php';
 if (!is_callable('smarty_modifier_get_preference')) require_once 'C:\\Users\\regta001\\Desktop\\testGK\\gatekeeper\\forum\\sys\\CODOF\\Smarty\\plugins\\modifier.get_preference.php';
@@ -40,7 +40,7 @@ $_smarty_tpl->ext->_inheritance->init($_smarty_tpl, false);
 
         <meta name="author" content="BABA">
         <title><?php 
-new Block_title_198820614159d7d5ba5d53f5_08294369($_smarty_tpl);
+new Block_title_25646489059dcdee3162ec4_91823721($_smarty_tpl);
 ?>
 </title>
         <!--[if lte IE 8]>
@@ -565,7 +565,7 @@ echo $_smarty_tpl->tpl_vars['site_url']->value;?>
             <div class='codo_modal_bg'></div>
 
         <?php 
-new Block_body_8083775759d7d5ba617a78_78106410($_smarty_tpl);
+new Block_body_99888003159dcdee31a5542_53740068($_smarty_tpl);
 ?>
 
 
@@ -721,7 +721,7 @@ new Block_body_8083775759d7d5ba617a78_78106410($_smarty_tpl);
 </html>
 <?php }
 /* {block 'title'} C:\Users\regta001\Desktop\testGK\gatekeeper\forum\sites\default\themes\2k18\templates\layout.tpl */
-class Block_title_198820614159d7d5ba5d53f5_08294369 extends Smarty_Internal_Block
+class Block_title_25646489059dcdee3162ec4_91823721 extends Smarty_Internal_Block
 {
 public $name = "title";
 public function callBlock(Smarty_Internal_Template $_smarty_tpl) {
@@ -733,7 +733,7 @@ $_smarty_tpl->ext->_inheritance->blockNesting--;
 }
 /* {/block 'title'} */
 /* {block 'body'} C:\Users\regta001\Desktop\testGK\gatekeeper\forum\sites\default\themes\2k18\templates\layout.tpl */
-class Block_body_8083775759d7d5ba617a78_78106410 extends Smarty_Internal_Block
+class Block_body_99888003159dcdee31a5542_53740068 extends Smarty_Internal_Block
 {
 public $name = "body";
 public function callBlock(Smarty_Internal_Template $_smarty_tpl) {
