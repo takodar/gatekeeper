@@ -599,6 +599,7 @@ a:hover, a:active, a:focus{
 
 #howtoIframe{
 	margin-bottom: 20px;
+	display: none;
 }
 
 .hrOverride{
@@ -614,3 +615,28 @@ a:hover, a:active, a:focus{
 	cursor: pointer;
 }
 
+#howtoList{
+	display: none;
+}
+
+#howToWelcomeMessage{
+	font-weight: 700;
+	font-size: 2em;
+	color: black;
+}
+
+.nav>li>a {
+
+font-size: 1.25em;
+	color: rgba(0,0,0,.65);
+}
+
+.nav>li>a:focus, .nav>li>a:hover {
+	text-decoration: none;
+	background-color: transparent;
+	color: black;
+}
+
+.affix{
+	top: 20px;
+}

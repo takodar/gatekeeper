@@ -10,10 +10,11 @@
     <meta name="keywords"
           content="Authentry, Gatekeeper Pro, LogiKey, Secure Password Generator, Password Manager, Password Management, Password Recovery, Identity Theft Protection, Password Vault, Password Safe, Two Factor Authentication, 2 Factor Authentication, Duo Security, Last Pass, Yubico, YubiKey">
     <link rel="stylesheet" type="text/css" href="css/introjs.css"/>
-	    <link rel="stylesheet" href="css/bootstrap.min.css">
-	<link rel="stylesheet" type="text/css" href="css/style.css"/>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css"/>
     <link rel="stylesheet" href="css/font-awesome-4.7.0/css/font-awesome.min.css">
     <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </head>
 
 <body>
@@ -30,7 +31,9 @@
                     <li><a href="product.html" title="Products">Products</a></li>
                     <li><a href="download.php" title="Download" id="down1">Download</a></li>
                     <li><a href="forum" title="forum">Forum</a></li>
-<li class="last" id="outterHelp"><i id="btnHelp" title="Help" onclick="startHelper()" class="fa fa-question-circle"></i></li>                </ul>
+                    <li class="last" id="outterHelp"><i id="btnHelp" title="Help" onclick="startHelper()"
+                                                        class="fa fa-question-circle"></i></li>
+                </ul>
             </div>
         </div>
     </div>
@@ -50,83 +53,84 @@
     </div>
     <!--Main Bannr End-->
     <!--Inner Page Cantent-->
-   
-	
-	
-	
-	
-	<div class="col-12 col-md-3 col-xl-2 bd-sidebar">      
-<nav class="bd-links" id="bd-docs-nav">
-  <div class="bd-toc-item ">
-      <ul class="nav bd-sidenav">
-          <li class="">
-            <a href="/docs/4.0/getting-started/introduction/">
-              Introduction
-            </a>
-          </li>
-          <li class="">
-            <a href="/docs/4.0/getting-started/download/">
-              Download
-            </a>      
-          </li>
-      </ul>
-    </div>
-</nav>
-</div>
- <div class="pageCantent innerCantent  col-md-9 col-xl-10">
+
+
+    <div class="pageCantent innerCantent">
+        <div class="col-xl-2 col-lg-2 col-md-3 col-sm-3">
+
+            <ul class="nav nav-pills nav-stacked" data-spy="affix" data-offset-top="447">
+                <li id="navHowToHome" class="active">
+                    <a href="">Home</a>
+                </li>
+                <li id="navHowToList">
+                    <a href="#" onclick="alterDisplay('howtoList');">
+                        How To's
+                    </a>
+                </li>
+                <li id="navDocuments">
+                    <a href="#" onclick="alterDisplay('howtoIframe');">
+                        Documents
+                    </a>
+                </li>
+            </ul>
+        </div>
         <div class="containerOld" id="faqContainer">
             <div class="password101 cf">
-			<div class="col-lg-12 col-md-12 col-sm-12" id="howtoIframe">
-			<iframe src='https://trssolutionsllc-my.sharepoint.com/personal/mike_trssolutionsllc_onmicrosoft_com/_layouts/15/guestaccess.aspx?docid=01fc55bbf0d9b4ca18a09289a1fd474d3&authkey=ASA50hNX_JMv1YefJY_S7cM&action=embedview&wdAr=1.7777777777777777&wdEaa=0'
-                    width='962px' height='565px' frameborder='0'>This is an embedded <a target='_blank'
-                                                                                        href='https://office.com'>Microsoft
-                Office</a> presentation, powered by <a target='_blank' href='https://office.com/webapps'>Office
-                Online</a>.
-            </iframe> 
-			</div>
-                <hr class="hrOverride"/>
-				<div class="col-lg-12 col-md-12 col-sm-12">
-                <p class="setupInstruction" id="step1">1) Click Facebook Google LinkedIn Twitter Button To
-                    Create An Account </p>
-                <img src="images/step1.jpg"/>
-				</div>
-                <hr class="hrOverride"/>
-				<div class="col-lg-12 col-md-12 col-sm-12">
-                <p class="setupInstruction" id="step2">2) Choose the Account That You Would Like To Register
-                    With</p>
-                <img src="images/step2.jpg"/>
-				</div>
-                <hr class="hrOverride"/>
-                <p class="setupInstruction"  id="step3">3) We Chose LinkedIN to Create Our Account</p>
-                <img src="images/step3.jpg"/>
-                <hr class="hrOverride"/>
-                <p class="setupInstruction">4) ....</p>
-                <img src="images/step4.jpg"/>
-                <hr class="hrOverride"/>
-                <p class="setupInstruction">5)....</p>
-                <img src="images/step5.jpg"/>
-                <hr class="hrOverride"/>
-                <p class="setupInstruction">6) ....</p>
-                <img src="images/step6.jpg"/>
-                <hr class="hrOverride"/>
-                <p class="setupInstruction">7) ....</p>
-                <img src="images/step7.jpg"/>
-                <hr class="hrOverride"/>
-                <p class="setupInstruction">8) ....</p>
-                <img src="images/step8.jpg"/>
-                <hr class="hrOverride"/>
-                <p class="setupInstruction">9) ....</p>
-                <img src="images/step9.jpg"/>
-                <hr class="hrOverride"/>
-                <p class="setupInstruction">10) ....</p>
-                <img src="images/step10.jpg"/>
-                <hr class="hrOverride"/>
-                <p class="setupInstruction">11)....</p>
-                <img src="images/step11.jpg"/>
-                <hr class="hrOverride"/>
-                <p class="setupInstruction">12) ....</p>
-                <img src="images/step12.jpg"/>
-		       
+                <div id="howToWelcomeMessage" class="col-xl-10 col-lg-9 col-md-9 col-sm-9">
+                    Welcome to the how to page click the a link on the left
+                </div>
+                <div class="col-xl-10 col-lg-9 col-md-9 col-sm-9" id="howtoIframe">
+                    <iframe src='https://trssolutionsllc-my.sharepoint.com/personal/mike_trssolutionsllc_onmicrosoft_com/_layouts/15/guestaccess.aspx?docid=01fc55bbf0d9b4ca18a09289a1fd474d3&authkey=ASA50hNX_JMv1YefJY_S7cM&action=embedview&wdAr=1.7777777777777777&wdEaa=0'
+                            width='962px' height='565px' frameborder='0'>This is an embedded <a target='_blank'
+                                                                                                href='https://office.com'>Microsoft
+                        Office</a> presentation, powered by <a target='_blank' href='https://office.com/webapps'>Office
+                        Online</a>.
+                    </iframe>
+                </div>
+
+                <div id="howtoList" class="col-xl-10 col-lg-9 col-md-9 col-sm-9">
+                    <div class="col-lg-12 col-md-12 col-sm-12">
+                        <p class="setupInstruction" id="step1">1) Click Facebook Google LinkedIn Twitter Button To
+                            Create An Account </p>
+                        <img src="images/step1.jpg"/>
+                    </div>
+                    <hr class="hrOverride"/>
+                    <div class="col-lg-12 col-md-12 col-sm-12">
+                        <p class="setupInstruction" id="step2">2) Choose the Account That You Would Like To Register
+                            With</p>
+                        <img src="images/step2.jpg"/>
+                    </div>
+                    <hr class="hrOverride"/>
+                    <p class="setupInstruction" id="step3">3) We Chose LinkedIN to Create Our Account</p>
+                    <img src="images/step3.jpg"/>
+                    <hr class="hrOverride"/>
+                    <p class="setupInstruction">4) ....</p>
+                    <img src="images/step4.jpg"/>
+                    <hr class="hrOverride"/>
+                    <p class="setupInstruction">5)....</p>
+                    <img src="images/step5.jpg"/>
+                    <hr class="hrOverride"/>
+                    <p class="setupInstruction">6) ....</p>
+                    <img src="images/step6.jpg"/>
+                    <hr class="hrOverride"/>
+                    <p class="setupInstruction">7) ....</p>
+                    <img src="images/step7.jpg"/>
+                    <hr class="hrOverride"/>
+                    <p class="setupInstruction">8) ....</p>
+                    <img src="images/step8.jpg"/>
+                    <hr class="hrOverride"/>
+                    <p class="setupInstruction">9) ....</p>
+                    <img src="images/step9.jpg"/>
+                    <hr class="hrOverride"/>
+                    <p class="setupInstruction">10) ....</p>
+                    <img src="images/step10.jpg"/>
+                    <hr class="hrOverride"/>
+                    <p class="setupInstruction">11)....</p>
+                    <img src="images/step11.jpg"/>
+                    <hr class="hrOverride"/>
+                    <p class="setupInstruction">12) ....</p>
+                    <img src="images/step12.jpg"/>
+                </div>
             </div>
         </div>
     </div>
@@ -175,6 +179,7 @@
 <script type="text/javascript" src="js/viewportSize-min.js"></script>
 <script type="text/javascript" src="js/introjs/intro.js"></script>
 <script type="text/javascript" src="js/introjs/howTo.js"></script>
+<script type="text/javascript" src="js/howTo/howTo.js"></script>
 
 </body>
 </html>
