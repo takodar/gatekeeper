@@ -38,6 +38,7 @@
         </div>
     </div>
     <!--Header End-->
+
     <!--Main Bannr-->
     <div id="banner">
         <ul class="slider cf">
@@ -52,90 +53,86 @@
         </ul>
     </div>
     <!--Main Bannr End-->
-	
+
+
     <!--Inner Page Cantent-->
-    <div class="pageCantent innerCantent">
-        <div class="col-xl-2 col-lg-2 col-md-3 col-sm-3">
+    <div class="col-xl-2 col-lg-2 col-md-3 col-sm-3">
+        <ul class="nav nav-pills nav-stacked" data-spy="affix" data-offset-top="447">
+            <li id="navHowToHome" class="active">
+                <a href="">Home</a>
+            </li>
+            <li id="navHowToList">
+                <a href="#" onclick="alterDisplay('howtoList');">
+                    How To's
+                </a>
+            </li>
+            <li id="navDocuments">
+                <a href="#" onclick="alterDisplay('howtoIframe');">
+                    Documents
+                </a>
+            </li>
+        </ul>
+    </div>
+    <div id="howToWelcomeMessage" class="col-xl-10 col-lg-10 col-md-9 col-sm-9 howToContent">
+        Welcome to the how to page click the a link on the left
+    </div>
+    <div class="col-xl-10 col-lg-10 col-md-9 col-sm-9 howToContent" id="howtoIframe">
+        <iframe src='https://trssolutionsllc-my.sharepoint.com/personal/mike_trssolutionsllc_onmicrosoft_com/_layouts/15/guestaccess.aspx?docid=01fc55bbf0d9b4ca18a09289a1fd474d3&authkey=ASA50hNX_JMv1YefJY_S7cM&action=embedview&wdAr=1.7777777777777777&wdEaa=0'
+                width='962px' height='565px' frameborder='0'>This is an embedded <a target='_blank'
+                                                                                    href='https://office.com'>Microsoft
+            Office</a> presentation, powered by <a target='_blank' href='https://office.com/webapps'>Office
+            Online</a>.
+        </iframe>
+    </div>
 
-            <ul class="nav nav-pills nav-stacked" data-spy="affix" data-offset-top="447">
-                <li id="navHowToHome" class="active">
-                    <a href="">Home</a>
-                </li>
-                <li id="navHowToList">
-                    <a href="#" onclick="alterDisplay('howtoList');">
-                        How To's
-                    </a>
-                </li>
-                <li id="navDocuments">
-                    <a href="#" onclick="alterDisplay('howtoIframe');">
-                        Documents
-                    </a>
-                </li>
-            </ul>
+    <div id="howtoList" class="col-xl-10 col-lg-10 col-md-9 col-sm-9 howToContent">
+        <div class="col-lg-12 col-md-12 col-sm-12">
+            <p class="setupInstruction" id="step1">1) Click Facebook Google LinkedIn Twitter Button To
+                Create An Account </p>
+            <img src="images/step1.jpg"/>
         </div>
-        <div class="containerOld" id="faqContainer">
-            <div class="cf">
-                <div id="howToWelcomeMessage" class="col-xl-12 col-lg-12 col-md-12 col-sm-12">
-                    Welcome to the how to page click the a link on the left
-                </div>
-                <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12" id="howtoIframe">
-                    <iframe src='https://trssolutionsllc-my.sharepoint.com/personal/mike_trssolutionsllc_onmicrosoft_com/_layouts/15/guestaccess.aspx?docid=01fc55bbf0d9b4ca18a09289a1fd474d3&authkey=ASA50hNX_JMv1YefJY_S7cM&action=embedview&wdAr=1.7777777777777777&wdEaa=0'
-                            width='962px' height='565px' frameborder='0'>This is an embedded <a target='_blank'
-                                                                                                href='https://office.com'>Microsoft
-                        Office</a> presentation, powered by <a target='_blank' href='https://office.com/webapps'>Office
-                        Online</a>.
-                    </iframe>
-                </div>
-
-                <div id="howtoList" class="col-xl-12 col-lg-12 col-md-12 col-sm-12">
-                    <div class="col-lg-12 col-md-12 col-sm-12">
-                        <p class="setupInstruction" id="step1">1) Click Facebook Google LinkedIn Twitter Button To
-                            Create An Account </p>
-                        <img src="images/step1.jpg"/>
-                    </div>
-                    <hr class="hrOverride"/>
-                    <div class="col-lg-12 col-md-12 col-sm-12">
-                        <p class="setupInstruction" id="step2">2) Choose the Account That You Would Like To Register
-                            With</p>
-                        <img src="images/step2.jpg"/>
-                    </div>
-                    <hr class="hrOverride"/>
-                    <p class="setupInstruction" id="step3">3) We Chose LinkedIN to Create Our Account</p>
-                    <img src="images/step3.jpg"/>
-                    <hr class="hrOverride"/>
-                    <p class="setupInstruction">4) ....</p>
-                    <img src="images/step4.jpg"/>
-                    <hr class="hrOverride"/>
-                    <p class="setupInstruction">5)....</p>
-                    <img src="images/step5.jpg"/>
-                    <hr class="hrOverride"/>
-                    <p class="setupInstruction">6) ....</p>
-                    <img src="images/step6.jpg"/>
-                    <hr class="hrOverride"/>
-                    <p class="setupInstruction">7) ....</p>
-                    <img src="images/step7.jpg"/>
-                    <hr class="hrOverride"/>
-                    <p class="setupInstruction">8) ....</p>
-                    <img src="images/step8.jpg"/>
-                    <hr class="hrOverride"/>
-                    <p class="setupInstruction">9) ....</p>
-                    <img src="images/step9.jpg"/>
-                    <hr class="hrOverride"/>
-                    <p class="setupInstruction">10) ....</p>
-                    <img src="images/step10.jpg"/>
-                    <hr class="hrOverride"/>
-                    <p class="setupInstruction">11)....</p>
-                    <img src="images/step11.jpg"/>
-                    <hr class="hrOverride"/>
-                    <p class="setupInstruction">12) ....</p>
-                    <img src="images/step12.jpg"/>
-                </div>
-            </div>
+        <hr class="hrOverride"/>
+        <div class="col-lg-12 col-md-12 col-sm-12">
+            <p class="setupInstruction" id="step2">2) Choose the Account That You Would Like To Register
+                With</p>
+            <img src="images/step2.jpg"/>
         </div>
+        <hr class="hrOverride"/>
+        <p class="setupInstruction" id="step3">3) We Chose LinkedIN to Create Our Account</p>
+        <img src="images/step3.jpg"/>
+        <hr class="hrOverride"/>
+        <p class="setupInstruction">4) ....</p>
+        <img src="images/step4.jpg"/>
+        <hr class="hrOverride"/>
+        <p class="setupInstruction">5)....</p>
+        <img src="images/step5.jpg"/>
+        <hr class="hrOverride"/>
+        <p class="setupInstruction">6) ....</p>
+        <img src="images/step6.jpg"/>
+        <hr class="hrOverride"/>
+        <p class="setupInstruction">7) ....</p>
+        <img src="images/step7.jpg"/>
+        <hr class="hrOverride"/>
+        <p class="setupInstruction">8) ....</p>
+        <img src="images/step8.jpg"/>
+        <hr class="hrOverride"/>
+        <p class="setupInstruction">9) ....</p>
+        <img src="images/step9.jpg"/>
+        <hr class="hrOverride"/>
+        <p class="setupInstruction">10) ....</p>
+        <img src="images/step10.jpg"/>
+        <hr class="hrOverride"/>
+        <p class="setupInstruction">11)....</p>
+        <img src="images/step11.jpg"/>
+        <hr class="hrOverride"/>
+        <p class="setupInstruction">12) ....</p>
+        <img src="images/step12.jpg"/>
     </div>
     <!--Inner Page Cantent End-->
+
+
     <!--Footer-->
-    <div id="footer">
+    <div id="footer" class="col-lg-12">
         <div class="containerOld">
             <div class="columns">
                 <div class="column">
