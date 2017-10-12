@@ -620,9 +620,11 @@ a:hover, a:active, a:focus{
 	display: none;
 }
 
+#helpFAQs{
+	display: none;
+}
+
 #howToWelcomeMessage{
-	font-weight: 700;
-	font-size: 2em;
 	color: black;
 }
 
@@ -644,4 +646,21 @@ font-size: 1.25em;
 
 .howToContent{
 	border-left: solid lightgrey 1px;
+	padding: 25px;
+}
+
+#sideNavOutterDiv{
+	padding: 20px;
+}
+
+.noPadding{
+	padding: 0;
+}
+
+.panel-heading{
+	font-size: 24px;
+}
+
+.panel-body{
+	font-size: 18px;
 }
