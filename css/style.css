@@ -620,7 +620,11 @@ a:hover, a:active, a:focus{
 	display: none;
 }
 
-#helpFAQs{
+#howToFAQs{
+	display: none;
+}
+
+#howToVideos{
 	display: none;
 }
 

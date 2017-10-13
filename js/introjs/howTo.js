@@ -71,4 +71,62 @@ $("#btnHelp").click(function(){
           });
           intro.start();
 	}
+	else if(helpPage === 'FAQs'){
+		        var intro = introJs();
+          intro.setOptions(
+		  {
+			
+			skipLabel: 'Exit',
+            steps: [
+			{
+                element: '#down1',
+                intro: "FAQS PAGE HELP",
+				position: 'top'
+              },
+              {
+                intro: "FAQ instructions for step 1",
+				position: 'top'
+              },
+              {
+                intro: "instructions for step 2..",
+                position: 'top'
+              },
+              {
+                element: '#step3',
+                intro: 'instructions for step 3................',
+                position: 'top'
+              }
+            ]
+          });
+          intro.start();
+	}
+	else if(helpPage === 'Videos'){
+		        var intro = introJs();
+          intro.setOptions(
+		  {
+			
+			skipLabel: 'Exit',
+            steps: [
+			{
+                element: '#down1',
+                intro: "VIDEOS PAGE HELP",
+				position: 'top'
+              },
+              {
+                intro: "VIDEOS instructions for step 1",
+				position: 'top'
+              },
+              {
+                intro: "VIDEOS for step 2..",
+                position: 'top'
+              },
+              {
+                element: '#step3',
+                intro: 'instructions for step 3................',
+                position: 'top'
+              }
+            ]
+          });
+          intro.start();
+	}
  });
