@@ -573,10 +573,26 @@ a:hover, a:active, a:focus{
 }
 
 .setupInstruction{
-	color: #0043ff;;
+	color: rgb(28, 80, 226);
     font-weight: 700;
     font-size: 1.5em;
-	margin: 20px auto;
+	margin: 22px auto;
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+.faqHeader{
+	color: rgb(28, 80, 226);
+	font-weight: 700;
+	/*font-size: 1.5em;*/
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	list-style: none;
+}
+
+.faqAnswer{
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+
+.panel-primary{
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
 }
 
 #btnHelp{
