@@ -63,7 +63,7 @@
                     <a href="#" onclick="alterDisplay('howToWelcomeMessage');">Home</a>
                 </li>
                 <li id="navHowToList">
-                    <a href="#" onclick="alterDisplay('howtoList');">
+                    <a href="#" onclick="alterDisplay('howtoList');" id="navHowTo">
                         How To's
                     </a>
                 </li>
@@ -99,7 +99,7 @@
             </div>
             <div class="panel panel-primary col-lg-5 col-md-5 col-sm-12 col-xs-12 col-lg-offset-1 col-md-offset-1 noPadding">
                 <div class="panel-heading">
-                    <a href="#" onclick="alterDisplay('howtoIframe');" style="color: white">
+                    <a href="#" onclick="alterDisplay('howtoIframe');" style="color: white" id="pnlDocumentHeader">
                         Documents
                     </a>
                 </div>
@@ -191,8 +191,8 @@
         <div id="howToFAQs" class="faqs col-xl-10 col-lg-10 col-md-9 col-sm-9 col-xs-9 howToContent">
             <h2></h2>
             <ul>
-                <li class="faqHeader">How is it that Gatekeeper doesn't need or keep my Password? Don’t you need it to work?</li>
-                <p class="faqAnswer">We authenticate you based on your device. You use your Master Password to only decrypt your
+                <li class="faqHeader" id="faqFirstQuestion">How is it that Gatekeeper doesn't need or keep my Password? Don’t you need it to work?</li>
+                <p class="faqAnswer" id="faqFirstAnswer">We authenticate you based on your device. You use your Master Password to only decrypt your
                     own data locally on your computer, and your data is successfully decrypted only if you
                     provided the right one.
                 </p>
@@ -216,16 +216,7 @@
             </ul>
         </div>
 		<div class="col-xl-10 col-lg-10 col-md-10 col-sm-9 col-xs-9 howToContent" id="howToVideos">
-				<p>videos coming soon....</p>
-				<p>videos coming soon....</p>
-				<p>videos coming soon....</p>
-				<p>videos coming soon....</p>
-				<p>videos coming soon....</p>
-				<p>videos coming soon....</p>
-				<p>videos coming soon....</p>
-				<p>videos coming soon....</p>
-				<p>videos coming soon....</p>
-				<p>videos coming soon....</p>
+				<p style="font-size: 3em; height: 240px">Videos coming soon....</p>
         </div>
     </div>
     <!--Inner Page Cantent End-->

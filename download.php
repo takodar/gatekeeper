@@ -165,5 +165,7 @@ echo " <p><a class='btnOld active btnDownload' href='images/WINDOWS' id='windowD
 <script type="text/javascript" src="js/general.js"></script>
 <script type="text/javascript" src="js/utils.js"></script>
 <script type="text/javascript" src="js/viewportSize-min.js"></script>
+<script type="text/javascript" src="js/introjs/intro.js"></script>
+<script type="text/javascript" src="js/introjs/download.js"></script>
 </body>
 </html>
