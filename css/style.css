@@ -43,12 +43,13 @@ img{max-width:100%; border:0 none; height:auto; display:inline-block;}
 .btnOld:hover{background:#0066cb; border-color:#034587;}
 
 .containerOld{margin:0 auto; max-width:1000px;}
+.navContainer{margin: 0 50px 0 50px; max-width: 100%}
 /*Header
 ===============================================================================*/
 	#header .containerOld{min-height:92px; position:relative; z-index:10}
 	.logo{position:absolute; left:0; top:0; z-index:10;}
 	.logo a img{max-width:none; height:auto;}
-	.navOld{float:right; padding:35px 0 0 0;font-family: 'proxima_nova_rgregular'; text-transform:uppercase;}
+	.navOld{float:right; padding:35px 0 0 0;font-family: 'proxima_nova_rgregular'; text-transform:uppercase; font-size: 1.25em}
 	.navOld li{float:left; padding:0 8px;}
 	.navOld li.first{padding-left:0;}
 	.navOld li.last{padding-right:0;}
@@ -120,12 +121,16 @@ img{max-width:100%; border:0 none; height:auto; display:inline-block;}
 	.homeCantent .toppic .text{ text-align:justify;}
 	.homeCantent .toppic p{color:#666;}
 	.homeCantent .secure{padding-right:1.5%; width:32.8%;}
-	.homeCantent .secure h2{background:url(../images/secure-icon.png) no-repeat center 0; color:#0066cb;}
+	.homeCantent .secure h2{background:url(../images/secure-icon.png) no-repeat center 0; color:#0066cb; transition: all .2s ease-in-out;}
+	.homeCantent .secure h2:hover{transform: scale(1.1);}
+
 	.homeCantent .convenient{padding:0 1.5%; width:34.4%;}
-	.homeCantent .convenient h2{background:url(../images/convenient-icon.png) no-repeat center 0; color:#909090;}
+	.homeCantent .convenient h2{background:url(../images/convenient-icon.png) no-repeat center 0; color:#909090; transition: all .2s ease-in-out;}
+	.homeCantent .convenient h2:hover{transform: scale(1.1);}
 	.homeCantent .affordable{padding-left:1.5%; width:32.8%;}
-	.homeCantent .affordable h2{background:url(../images/affordable-icon.png) no-repeat center 0; color:#9ed600;}
-	
+	.homeCantent .affordable h2{background:url(../images/affordable-icon.png) no-repeat center 0; color:#9ed600; transition: all .2s ease-in-out;}
+	.homeCantent .affordable h2:hover{transform: scale(1.1);}
+
 	.homeCantent .banner{background:url(../images/sub-banner.jpg) no-repeat center 0; background-size:cover; min-height:288px; text-shadow:1px 1px 1px #666;}
 	.homeCantent .banner .text{max-width:540px; float:right; padding:40px 0 0 0;}
 	.homeCantent .banner p{color:#fff; font-size:30px;}
