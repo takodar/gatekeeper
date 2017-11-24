@@ -18,16 +18,19 @@
     <!-- Custom fonts for this template -->
     <!--<link rel="stylesheet" href="vendor/font-awesome/css/font-awesome.min.css">-->
     <link rel="stylesheet" href="css/font-awesome-4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="css/simple-line-icons/simple-line-icons.css">
+    <link rel="stylesheet" href="css/simple-line-icons/css/simple-line-icons.css">
     <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Catamaran:100,200,300,400,500,600,700,800,900" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet">
 
     <!-- Plugin CSS -->
-    <link rel="stylesheet" href="css/device-mockups.min.css">
+    <link rel="stylesheet" href="css/device-mockups/device-mockups.min.css">
 
-    <!-- Custom styles for this template -->
-    <link href="css/new-age.min.css" rel="stylesheet">
+    <!--TODO Minify after development is complete-->
+    <!--<link href="css/new-age.min.css" rel="stylesheet">-->
+    <link href="css/new-age.css" rel="stylesheet">
+
+    <link href="css/takodaCSS.css" rel="stylesheet">
 
 </head>
 
@@ -36,7 +39,13 @@
 <!-- Navigation -->
 <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
     <div class="container">
-        <a class="navbar-brand js-scroll-trigger" href="#page-top">GateKeeper Pro</a>
+        <!--TODO Gatekeeper brand logo-->
+        <!--<img src="images/testBrandLogo.png" alt="Gate Keeper" style="position: absolute; top: 0; z-index: 100">-->
+        <a class="navbar-brand js-scroll-trigger" href="#page-top">
+            GateKeeper Pro
+        </a>
+
+
         <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
             Menu
             <i class="fa fa-bars"></i>
@@ -50,7 +59,13 @@
                     <a class="nav-link js-scroll-trigger" href="#features">Features</a>
                 </li>
                 <li class="nav-item">
+                    <a class="nav-link js-scroll-trigger" href="#howTo">How To</a>
+                </li>
+                <li class="nav-item">
                     <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link js-scroll-trigger" href="forum">Forum</a>
                 </li>
             </ul>
         </div>
@@ -61,18 +76,36 @@
     <div class="container h-100">
         <div class="row h-100">
             <div class="col-lg-7 my-auto">
-                <div class="header-content mx-auto">
-                    <h1 class="mb-5">New Age is an app landing page that will help you beautifully showcase your new mobile app, or anything else!</h1>
-                    <a href="#download" class="btn btn-outline btn-xl js-scroll-trigger">Start Now for Free!</a>
+                <!--<div class="header-content mx-auto">-->
+                    <h1 class="mb-5">GateKeeper Pro saves all of your accounts, usernames and passwords in one secure location and allows you to auto-login</h1>
+                    <!--<div class="device-container" style="margin: 0">-->
+                    <div class="col-sm-6 col-lg-6 col-md-6" style="margin: 0">
+                        <div class="device-mockup imac">
+                            <div class="device">
+                                <div class="screen">
+                                    <!-- Demo image for screen mockup, you can put an image here, some HTML, an animation, video, or anything else! -->
+                                    <img src="images/Bootstrap4/demo-screen-1.jpg" class="img-fluid" alt="">
+                                </div>
+                                <div class="button">
+                                    <!-- You can hook the "home button" to some JavaScript events or just remove it -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                <div class="device-container col-sm-6 col-lg-6 col-md-6" style="margin: 0">
+                <a href="#download" class="btn btn-outline btn-xl js-scroll-trigger">Start Now for Free!</a>
+
                 </div>
+
+                <!--</div>-->
             </div>
             <div class="col-lg-5 my-auto">
                 <div class="device-container">
-                    <div class="device-mockup iphone6_plus portrait white">
+                    <div class="device-mockup galaxy_s5 portrait white">
                         <div class="device">
                             <div class="screen">
                                 <!-- Demo image for screen mockup, you can put an image here, some HTML, an animation, video, or anything else! -->
-                                <img src="img/demo-screen-1.jpg" class="img-fluid" alt="">
+                                <img src="images/Bootstrap4/demo-screen-1.jpg" class="img-fluid" alt="">
                             </div>
                             <div class="button">
                                 <!-- You can hook the "home button" to some JavaScript events or just remove it -->
@@ -92,8 +125,8 @@
                 <h2 class="section-heading">Discover what all the buzz is about!</h2>
                 <p>Our app is available on any mobile device! Download now to get started!</p>
                 <div class="badges">
-                    <a class="badge-link" href="#"><img src="img/google-play-badge.svg" alt=""></a>
-                    <a class="badge-link" href="#"><img src="img/app-store-badge.svg" alt=""></a>
+                    <a class="badge-link" href="#"><img src="images/Bootstrap4/google-play-badge.svg" alt=""></a>
+                    <a class="badge-link" href="#"><img src="images/Bootstrap4/app-store-badge.svg" alt=""></a>
                 </div>
             </div>
         </div>
@@ -114,7 +147,7 @@
                         <div class="device">
                             <div class="screen">
                                 <!-- Demo image for screen mockup, you can put an image here, some HTML, an animation, video, or anything else! -->
-                                <img src="img/demo-screen-1.jpg" class="img-fluid" alt="">
+                                <img src="images/Bootstrap4/demo-screen-1.jpg" class="img-fluid" alt="">
                             </div>
                             <div class="button">
                                 <!-- You can hook the "home button" to some JavaScript events or just remove it -->
@@ -128,15 +161,15 @@
                     <div class="row">
                         <div class="col-lg-6">
                             <div class="feature-item">
-                                <i class="icon-screen-smartphone text-primary"></i>
-                                <h3>Device Mockups</h3>
+                                <i class="icon-screen-desktop text-primary"></i>
+                                <h3>Any Device</h3>
                                 <p class="text-muted">Ready to use HTML/CSS device mockups, no Photoshop required!</p>
                             </div>
                         </div>
                         <div class="col-lg-6">
                             <div class="feature-item">
-                                <i class="icon-camera text-primary"></i>
-                                <h3>Flexible Use</h3>
+                                <i class="icon-screen-smartphone text-primary"></i>
+                                <h3>Two-Factor Authentication</h3>
                                 <p class="text-muted">Put an image, video, animation, or anything else in the screen!</p>
                             </div>
                         </div>
@@ -144,15 +177,16 @@
                     <div class="row">
                         <div class="col-lg-6">
                             <div class="feature-item">
-                                <i class="icon-present text-primary"></i>
-                                <h3>Free to Use</h3>
+                                <i class="icon-user-follow text-primary"></i>
+                                <!--<i class="icon-social-dropbox text-primary"></i>-->
+                                <h3>Any Account</h3>
                                 <p class="text-muted">As always, this theme is free to download and use for any purpose!</p>
                             </div>
                         </div>
                         <div class="col-lg-6">
                             <div class="feature-item">
-                                <i class="icon-lock-open text-primary"></i>
-                                <h3>Open Source</h3>
+                                <i class="icon-cloud-download text-primary"></i>
+                                <h3>Cloud Supported</h3>
                                 <p class="text-muted">Since this theme is MIT licensed, you can use it commercially!</p>
                             </div>
                         </div>
@@ -167,11 +201,84 @@
     <div class="cta-content">
         <div class="container">
             <h2>Stop waiting.<br>Start building.</h2>
-            <a href="#contact" class="btn btn-outline btn-xl js-scroll-trigger">Let's Get Started!</a>
+            <a href="#howTo" class="btn btn-outline btn-xl js-scroll-trigger" id="btnGetStarted">Let's Get Started!</a>
         </div>
     </div>
     <div class="overlay"></div>
 </section>
+
+<section class="howTo" id="howTo">
+    <div class="howTo-content">
+        <div class="container">
+            <div class="section-heading text-center">
+                <h2>How To</h2>
+                <p class="text-muted">Install, Setup, Use</p>
+                <hr>
+            </div>
+            <div class="row" style="padding-top: 5%;">
+                <div class="col-lg-6">
+                   <h3> 1) Dowload the app </h3>
+                </div>
+                <div class="col-lg-6 my-auto">
+                    <div class="device-container" style="height: 50%; width: 50%">
+                        <div class="device-mockup imac">
+                            <div class="device">
+                                <div class="screen">
+                                    <!-- Demo image for screen mockup, you can put an image here, some HTML, an animation, video, or anything else! -->
+                                    <img src="images/Bootstrap4/demo-screen-1.jpg" class="img-fluid" alt="">
+                                </div>
+                                <div class="button">
+                                    <!-- You can hook the "home button" to some JavaScript events or just remove it -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row" style="padding-top: 5%;">
+                <div class="col-lg-6">
+                    <h3> 2) Create an account with GateKeeper (Use a third party account for quick account creation)</h3>
+                </div>
+                <div class="col-lg-6 my-auto">
+                    <div class="device-container" style="height: 25%; width: 25%">
+                        <div class="device-mockup iphone6 portrait white">
+                            <div class="device">
+                                <div class="screen">
+                                    <!-- Demo image for screen mockup, you can put an image here, some HTML, an animation, video, or anything else! -->
+                                    <img src="images/Bootstrap4/demo-screen-1.jpg" class="img-fluid" alt="">
+                                </div>
+                                <div class="button">
+                                    <!-- You can hook the "home button" to some JavaScript events or just remove it -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row" style="padding-top: 5%;">
+                <div class="col-lg-6">
+                    <h3> 3) After creating an account and logging in click the "Actions" button in the top right to start adding accounts</h3>
+                </div>
+                <div class="col-lg-6 my-auto">
+                    <div class="device-container" style="height: 25%; width: 25%">
+                        <div class="device-mockup iphone6 portrait white">
+                            <div class="device">
+                                <div class="screen">
+                                    <!-- Demo image for screen mockup, you can put an image here, some HTML, an animation, video, or anything else! -->
+                                    <img src="images/Bootstrap4/demo-screen-1.jpg" class="img-fluid" alt="">
+                                </div>
+                                <div class="button">
+                                    <!-- You can hook the "home button" to some JavaScript events or just remove it -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
 
 <section class="contact bg-primary" id="contact">
     <div class="container">
@@ -180,12 +287,12 @@
             new friends!</h2>
         <ul class="list-inline list-social">
             <li class="list-inline-item social-twitter">
-                <a href="#">
+                <a href="https://twitter.com/GateKeeperPro99">
                     <i class="fa fa-twitter"></i>
                 </a>
             </li>
             <li class="list-inline-item social-facebook">
-                <a href="#">
+                <a href="https://www.facebook.com/TRSSolutions/">
                     <i class="fa fa-facebook"></i>
                 </a>
             </li>
@@ -200,7 +307,7 @@
 
 <footer>
     <div class="container">
-        <p>&copy; 2017 Start Bootstrap. All Rights Reserved.</p>
+        <p>&copy; 2014 GateKeeper. All Rights Reserved.</p>
         <ul class="list-inline">
             <li class="list-inline-item">
                 <a href="#">Privacy</a>
@@ -209,11 +316,56 @@
                 <a href="#">Terms</a>
             </li>
             <li class="list-inline-item">
-                <a href="#">FAQ</a>
+                <a href="#" data-toggle="modal" data-target="#faqModal">FAQ</a>
             </li>
         </ul>
     </div>
 </footer>
+
+
+<!-- Modal -->
+<div class="modal fade" id="faqModal" tabindex="-1" role="dialog" aria-labelledby="faqModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">FAQs</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                    <ol id="faqList">
+                        <li class="faqQuestion">How is it that Gatekeeper doesn't need or keep my Password? Don’t you need it to work?</li>
+                        <p class="faqAnswer">We authenticate you based on your device. You use your Master Password to only decrypt your
+                            own data locally on your computer, and your data is successfully decrypted only if you
+                            provided the right one.
+                        </p>
+
+                        <li class="faqQuestion">What if Gatekeepers password gets hacked?</li>
+                        <p class="faqAnswer">We take every precaution to keep our servers secure through 24x7 building monitoring,
+                            biometric entryways and armed guards. Your data is always encrypted with AES-256, with a
+                            unique key for each user that isn't recorded anywhere. Without these keys, this encrypted
+                            data is useless to anyone, even us.</p>
+
+                        <li class="faqQuestion">Is my data safe in the cloud?</li>
+                        <p class="faqAnswer">Absolutely safe. Our cloud holds only encrypted data, which is useless without your unique
+                            Master Password-derived key (because of the AES-256 encryption algorithm.) And we don't have
+                            any record anywhere.</p>
+
+                        <li class="faqQuestion">What if I forget my Master Password?</li>
+                        <p class="faqAnswer">We never store your Password, your data is unrecoverable if you forget it – the good news is,
+                            now you only have one password to remember for all of your accounts so it should make it
+                            easier for you to remember! Our users like the fact that this is the only way for us to
+                            ensure that their data is inaccessible to anyone but them.</p>
+                    </ol>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                <!--<button type="button" class="btn btn-primary">Save changes</button>-->
+            </div>
+        </div>
+    </div>
+</div>
 
 <!-- Bootstrap core JavaScript -->
 <script src="js/jquery.min.js"></script>
@@ -224,6 +376,7 @@
 
 <!-- Custom scripts for this template -->
 <script src="js/new-age.min.js"></script>
+<script src="js/takoda.js"></script>
 
 </body>
 

@@ -2,29 +2,113 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4fed9998-7490-4130-a8a3-4fca35ddb165" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/gatekeeperHomepage.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/homepageTest1.jpeg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/homepageTest2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/bootstrap4.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/device-mockups.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/new-age.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/simple-line-icons/simple-line-icons.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/bootstrap.bundle.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/jquery-easing/jquery.easing.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/new-age.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/testHomePage.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/device-mockups/apple_watch/edition/gold.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/device-mockups/apple_watch/edition/rose.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/device-mockups/apple_watch/sport/black.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/device-mockups/apple_watch/sport/blue.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/device-mockups/apple_watch/sport/green.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/device-mockups/apple_watch/sport/red.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/device-mockups/apple_watch/sport/white.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/device-mockups/apple_watch/watch/metal.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/device-mockups/apple_watch/watch/steel.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/device-mockups/galaxy_s3/s3_land_black.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/device-mockups/galaxy_s3/s3_land_white.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/device-mockups/galaxy_s3/s3_port_black.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/device-mockups/galaxy_s3/s3_port_white.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/device-mockups/galaxy_s5/galaxy_s5_land_black.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/device-mockups/galaxy_s5/galaxy_s5_land_gold.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/device-mockups/galaxy_s5/galaxy_s5_land_white.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/device-mockups/galaxy_s5/galaxy_s5_port_black.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/device-mockups/galaxy_s5/galaxy_s5_port_gold.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/device-mockups/galaxy_s5/galaxy_s5_port_white.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/device-mockups/galaxy_tab4/galaxy_tab4_land_black.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/device-mockups/galaxy_tab4/galaxy_tab4_land_white.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/device-mockups/galaxy_tab4_small/galaxy_tab4_black_small.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/device-mockups/galaxy_tab4_small/galaxy_tab4_white_small.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/device-mockups/imac/imac.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/device-mockups/ipad/ipad_land_black.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/device-mockups/ipad/ipad_land_white.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/device-mockups/ipad/ipad_port_black.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/device-mockups/ipad/ipad_port_white.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/device-mockups/ipad_air/ipad_air_gray_land.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/device-mockups/ipad_air/ipad_air_gray_port.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/device-mockups/ipad_air/ipad_air_silver_land.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/device-mockups/ipad_air/ipad_air_silver_port.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/device-mockups/ipad_air_2/ipad_air_2_gold_land.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/device-mockups/ipad_air_2/ipad_air_2_gold_port.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/device-mockups/ipad_air_2/ipad_air_2_gray_land.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/device-mockups/ipad_air_2/ipad_air_2_gray_port.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/device-mockups/ipad_air_2/ipad_air_2_silver_land.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/device-mockups/ipad_air_2/ipad_air_2_silver_port.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/device-mockups/ipad_pro/ipad_pro_land_black.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/device-mockups/ipad_pro/ipad_pro_land_gold.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/device-mockups/ipad_pro/ipad_pro_land_silver.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/device-mockups/ipad_pro/ipad_pro_port_black.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/device-mockups/ipad_pro/ipad_pro_port_gold.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/device-mockups/ipad_pro/ipad_pro_port_silver.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/device-mockups/iphone5/iphone5_land_black.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/device-mockups/iphone5/iphone5_land_white.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/device-mockups/iphone5/iphone5_port_black.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/device-mockups/iphone5/iphone5_port_white.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/device-mockups/iphone_6/iphone_6_land_black.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/device-mockups/iphone_6/iphone_6_land_gold.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/device-mockups/iphone_6/iphone_6_land_white.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/device-mockups/iphone_6/iphone_6_port_black.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/device-mockups/iphone_6/iphone_6_port_gold.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/device-mockups/iphone_6/iphone_6_port_white.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/device-mockups/iphone_6_plus/iphone_6_plus_black_land.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/device-mockups/iphone_6_plus/iphone_6_plus_black_port.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/device-mockups/iphone_6_plus/iphone_6_plus_gold_land.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/device-mockups/iphone_6_plus/iphone_6_plus_gold_port.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/device-mockups/iphone_6_plus/iphone_6_plus_white_land.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/device-mockups/iphone_6_plus/iphone_6_plus_white_port.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/device-mockups/iphone_se/iphone_se_land_black.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/device-mockups/iphone_se/iphone_se_land_gold.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/device-mockups/iphone_se/iphone_se_land_rose.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/device-mockups/iphone_se/iphone_se_land_white.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/device-mockups/iphone_se/iphone_se_port_black.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/device-mockups/iphone_se/iphone_se_port_gold.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/device-mockups/iphone_se/iphone_se_port_rose.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/device-mockups/iphone_se/iphone_se_port_white.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/device-mockups/lumia920/lumia920_land.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/device-mockups/lumia920/lumia920_port.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/device-mockups/lumia_930/lumia_930_dark_land.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/device-mockups/lumia_930/lumia_930_dark_port.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/device-mockups/lumia_930/lumia_930_light_land.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/device-mockups/lumia_930/lumia_930_light_port.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/device-mockups/macbook/macbook.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/device-mockups/macbook_2015/gold.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/device-mockups/macbook_2015/grey.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/device-mockups/macbook_2015/silver.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/device-mockups/nexus7/nexus7_land.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/device-mockups/nexus7/nexus7_port.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/device-mockups/nexus_6/nexus_6_land.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/device-mockups/nexus_6/nexus_6_port.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/device-mockups/samsung_tv/samsung_tv.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/device-mockups/surface/surface.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/simple-line-icons/fonts/Simple-Line-Icons.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/simple-line-icons/fonts/Simple-Line-Icons.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/simple-line-icons/fonts/Simple-Line-Icons.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/simple-line-icons/fonts/Simple-Line-Icons.woff2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/Bootstrap4/bg-cta.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/Bootstrap4/bg-pattern.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/Bootstrap4/demo-screen-1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/testBrandLogo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/device-mockups/device-mockups.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/device-mockups/device-mockups2.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/device-mockups/device-mockups2.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/new-age.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/simple-line-icons/fonts/Simple-Line-Icons.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/simple-line-icons/less/simple-line-icons.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/simple-line-icons/scss/simple-line-icons.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/takodaCSS.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/Bootstrap4/app-store-badge.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/Bootstrap4/google-play-badge.svg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/css/device-mockups.min.css" afterPath="$PROJECT_DIR$/css/device-mockups/device-mockups.min.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/css/simple-line-icons/simple-line-icons.css" afterPath="$PROJECT_DIR$/css/simple-line-icons/css/simple-line-icons.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/about.html" afterPath="$PROJECT_DIR$/about.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/contact_us.html" afterPath="$PROJECT_DIR$/contact_us.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/download.php" afterPath="$PROJECT_DIR$/download.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/faqs.html" afterPath="$PROJECT_DIR$/faqs.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/howTo.html" afterPath="$PROJECT_DIR$/howTo.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/privacy_policy.html" afterPath="$PROJECT_DIR$/privacy_policy.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/product.html" afterPath="$PROJECT_DIR$/product.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/product_1.html" afterPath="$PROJECT_DIR$/product_1.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/term_of_use.html" afterPath="$PROJECT_DIR$/term_of_use.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/new-age.min.css" afterPath="$PROJECT_DIR$/css/new-age.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/testHomePage.html" afterPath="$PROJECT_DIR$/testHomePage.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -38,34 +122,53 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="615">
+            <state relative-caret-position="-457">
               <caret line="41" column="58" lean-forward="false" selection-start-line="41" selection-start-column="58" selection-end-line="41" selection-end-column="58" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="testHomePage.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="testHomePage.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/testHomePage.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="397">
-              <caret line="44" column="43" lean-forward="true" selection-start-line="44" selection-start-column="43" selection-end-line="44" selection-end-column="43" />
+            <state relative-caret-position="207">
+              <caret line="203" column="27" lean-forward="false" selection-start-line="203" selection-start-column="27" selection-end-line="203" selection-end-column="27" />
               <folding>
-                <element signature="e#8719#8725#0" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#section#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#section#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#2;n#div#0;n#div#0;n#section#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#1;n#div#2;n#div#0;n#div#0;n#section#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#3;n#div#0;n#div#0;n#section#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#1;n#div#3;n#div#0;n#div#0;n#section#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="e#14476#14482#0" expanded="true" />
+                <element signature="e#15399#15406#1" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="new-age.min.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/new-age.min.css">
+      <file leaf-file-name="takodaCSS.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css/takodaCSS.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="2506" lean-forward="false" selection-start-line="4" selection-start-column="2506" selection-end-line="4" selection-end-column="2506" />
+            <state relative-caret-position="345">
+              <caret line="23" column="21" lean-forward="false" selection-start-line="23" selection-start-column="21" selection-end-line="23" selection-end-column="21" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="new-age.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css/new-age.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="447">
+              <caret line="87" column="19" lean-forward="true" selection-start-line="87" selection-start-column="19" selection-end-line="87" selection-end-column="19" />
               <folding />
             </state>
           </provider>
@@ -74,8 +177,8 @@
       <file leaf-file-name="bootstrap.bundle.min.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/bootstrap.bundle.min.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+            <state relative-caret-position="45">
+              <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -88,6 +191,16 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="274">
               <caret line="124" column="34" lean-forward="false" selection-start-line="124" selection-start-column="34" selection-end-line="124" selection-end-column="55" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="new-age.min.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/new-age.min.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="7" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -106,29 +219,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>conta</find>
-      <find>style=&quot;border: solid blue 2px; padding: 30px;&quot;</find>
-      <find>contain</find>
-      <find>contai</find>
-      <find>btnDownload</find>
-      <find>container</find>
-      <find>d</find>
-      <find>downloa</find>
-      <find>download.</find>
-      <find>download.php</find>
-      <find>btnold:hover</find>
-      <find>protect me now</find>
-      <find>.hrov</find>
-      <find>f</find>
-      <find>footer</find>
-      <find>setup</find>
-      <find>introjs</find>
-      <find>&lt;/li&gt;</find>
-      <find>navold</find>
-      <find>.containerOld</find>
-      <find>jquer</find>
-      <find>.js</find>
-      <find>bootstrap</find>
       <find>secure</find>
       <find>header.masthe</find>
       <find>img/bg-pa</find>
@@ -136,9 +226,33 @@
       <find>img/bg-pattern</find>
       <find>body</find>
       <find>start boot</find>
+      <find>features</find>
+      <find>cta</find>
+      <find>../img</find>
+      <find>device-mockup</find>
+      <find>iphone6_plus</find>
+      <find>homepageTest</find>
+      <find>white</find>
+      <find>img</find>
+      <find>text-primary</find>
+      <find>n</find>
+      <find>nav</find>
+      <find>navb</find>
+      <find>navba</find>
+      <find>navbar</find>
+      <find>navbar-s</find>
+      <find>navbar-sh</find>
+      <find>navbar-shr</find>
+      <find>navbar-shri</find>
+      <find>navbar-shrin</find>
+      <find>fdcc52</find>
+      <find>simple</find>
+      <find>255</find>
+      <find>navbar-shrink</find>
     </findStrings>
     <replaceStrings>
       <replace />
+      <replace>../images/Bootstrap4</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -181,13 +295,17 @@
         <option value="$PROJECT_DIR$/css/simple-line-icons/simple-line-icons.css" />
         <option value="$PROJECT_DIR$/js/jquery-easing/jquery.easing.min.js" />
         <option value="$PROJECT_DIR$/js/bootstrap.bundle.min.js" />
-        <option value="$PROJECT_DIR$/js/new-age.min.js" />
         <option value="$PROJECT_DIR$/css/device-mockups.min.css" />
         <option value="$PROJECT_DIR$/css/bootstrap4.min.css" />
         <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/css/new-age.min.css" />
-        <option value="$PROJECT_DIR$/testHomePage.html" />
         <option value="$PROJECT_DIR$/css/style.css" />
+        <option value="$PROJECT_DIR$/css/new-age.min.css" />
+        <option value="$PROJECT_DIR$/js/takodaJS.js" />
+        <option value="$PROJECT_DIR$/js/new-age.min.js" />
+        <option value="$PROJECT_DIR$/js/takoda.js" />
+        <option value="$PROJECT_DIR$/css/new-age.css" />
+        <option value="$PROJECT_DIR$/css/takodaCSS.css" />
+        <option value="$PROJECT_DIR$/testHomePage.html" />
       </list>
     </option>
   </component>
@@ -198,9 +316,9 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1670" />
+    <option name="x" value="1440" />
     <option name="y" value="45" />
-    <option name="width" value="1440" />
+    <option name="width" value="1280" />
     <option name="height" value="873" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -220,7 +338,6 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -243,7 +360,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="images" />
+              <option name="myItemId" value="js" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -275,12 +392,13 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="images" />
+              <option name="myItemId" value="device-mockups" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -291,14 +409,15 @@
     <property name="list.type.of.created.stylesheet" value="CSS" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/css" />
+      <recent name="$PROJECT_DIR$/images/Bootstrap4" />
       <recent name="$PROJECT_DIR$/images" />
       <recent name="$PROJECT_DIR$/css/images" />
       <recent name="$PROJECT_DIR$/css/font-awesome-4.7.0" />
-      <recent name="$PROJECT_DIR$/css" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -405,7 +524,8 @@
       <workItem from="1508891706211" duration="41000" />
       <workItem from="1508928060198" duration="406000" />
       <workItem from="1508975734682" duration="1618000" />
-      <workItem from="1510415037450" duration="5863000" />
+      <workItem from="1510415037450" duration="6191000" />
+      <workItem from="1511537505423" duration="14150000" />
     </task>
     <task id="LOCAL-00001" summary="Removed pages that were not being used">
       <created>1507028230550</created>
@@ -456,26 +576,32 @@
       <option name="project" value="LOCAL" />
       <updated>1508929277862</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Bootstrap 4     /testhomepage.html">
+      <created>1510874906098</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1510874906098</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="42484000" />
+    <option name="totallyTimeSpent" value="56962000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1670" y="45" width="1440" height="873" extended-state="0" />
-    <editor active="true" />
+    <frame x="1440" y="45" width="1280" height="873" extended-state="0" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18534179" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18506752" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290653" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32901555" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -501,13 +627,67 @@
     <MESSAGE value="more work on how to page" />
     <MESSAGE value="fixes for help button" />
     <MESSAGE value="Google Analytics added" />
-    <option name="LAST_COMMIT_MESSAGE" value="Google Analytics added" />
+    <MESSAGE value="Bootstrap 4     /testhomepage.html" />
+    <option name="LAST_COMMIT_MESSAGE" value="Bootstrap 4     /testhomepage.html" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testHomePage.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="660">
+          <caret line="44" column="43" lean-forward="true" selection-start-line="44" selection-start-column="43" selection-end-line="44" selection-end-column="43" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#section#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#section#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#div#0;n#div#0;n#section#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#2;n#div#0;n#div#0;n#section#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#3;n#div#0;n#div#0;n#section#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#3;n#div#0;n#div#0;n#section#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#14476#14482#0" expanded="true" />
+            <element signature="e#15399#15406#1" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/new-age.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="2506" lean-forward="false" selection-start-line="4" selection-start-column="2506" selection-end-line="4" selection-end-column="2506" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/bootstrap.bundle.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1860">
+          <caret line="124" column="34" lean-forward="false" selection-start-line="124" selection-start-column="34" selection-end-line="124" selection-end-column="55" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/css/simple-line-icons/simple-line-icons.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="851">
@@ -516,29 +696,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/jquery-easing/jquery.easing.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/bootstrap.bundle.min.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+        <state relative-caret-position="45">
+          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/new-age.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="578" lean-forward="false" selection-start-line="6" selection-start-column="577" selection-end-line="6" selection-end-column="578" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -567,10 +731,85 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/css/images/controls.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/images/loading.gif">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/css/new-age.min.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
-          <caret line="4" column="2506" lean-forward="false" selection-start-line="4" selection-start-column="2506" selection-end-line="4" selection-end-column="2506" />
+          <caret line="4" column="2538" lean-forward="false" selection-start-line="4" selection-start-column="2511" selection-end-line="4" selection-end-column="2538" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/device-mockups/macbook/macbook.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/device-mockups/imac/imac.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/simple-line-icons/fonts/Simple-Line-Icons.svg">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-75">
+          <caret line="24" column="44" lean-forward="false" selection-start-line="24" selection-start-column="44" selection-end-line="24" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/device-mockups/macbook_2015/gold.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/device-mockups/macbook_2015/silver.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/device-mockups/samsung_tv/samsung_tv.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/jquery-easing/jquery.easing.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/takodaJS.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="132" lean-forward="false" selection-start-line="0" selection-start-column="132" selection-end-line="0" selection-end-column="132" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/new-age.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/takoda.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -583,21 +822,54 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/testHomePage.html">
+    <entry file="file://$PROJECT_DIR$/faqs.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="397">
-          <caret line="44" column="43" lean-forward="true" selection-start-line="44" selection-start-column="43" selection-end-line="44" selection-end-column="43" />
-          <folding>
-            <element signature="e#8719#8725#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="626">
+          <caret line="87" column="22" lean-forward="true" selection-start-line="61" selection-start-column="15" selection-end-line="87" selection-end-column="22" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="615">
+        <state relative-caret-position="-457">
           <caret line="41" column="58" lean-forward="false" selection-start-line="41" selection-start-column="58" selection-end-line="41" selection-end-column="58" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/new-age.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="447">
+          <caret line="87" column="19" lean-forward="true" selection-start-line="87" selection-start-column="19" selection-end-line="87" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/takodaCSS.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="21" lean-forward="false" selection-start-line="23" selection-start-column="21" selection-end-line="23" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testHomePage.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="203" column="27" lean-forward="false" selection-start-line="203" selection-start-column="27" selection-end-line="203" selection-end-column="27" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#section#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#section#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#div#0;n#div#0;n#section#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#2;n#div#0;n#div#0;n#section#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#3;n#div#0;n#div#0;n#section#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#3;n#div#0;n#div#0;n#section#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#14476#14482#0" expanded="true" />
+            <element signature="e#15399#15406#1" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

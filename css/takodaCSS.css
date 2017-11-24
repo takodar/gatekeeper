@@ -1,0 +1,26 @@
+
+#mainNav.navbar-shrink {
+        border-bottom: solid .5px #00000082;
+}
+
+#faqList{
+    list-style: none;
+}
+
+.faqQuestion{
+    color: #027cde;
+    font-size: 1em;
+    font-weight: 900;
+}
+
+.faqAnswer{
+    font-size: 1em;
+}
+
+#btnGetStarted{
+    border-color: white;
+    color: white;
+}
+#btnGetStarted:hover{
+    border-color: #027cde;
+}
