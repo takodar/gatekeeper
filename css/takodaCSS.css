@@ -20,6 +20,7 @@
 #btnGetStarted{
     border-color: white;
     color: white;
+    background-color: transparent;
 }
 #btnGetStarted:hover{
     border-color: #027cde;

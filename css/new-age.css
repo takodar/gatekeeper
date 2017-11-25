@@ -65,7 +65,8 @@ section h2 {
 }
 
 #mainNav {
-    border-color: rgba(34, 34, 34, 0.05);
+    /*border-color: rgba(34, 34, 34, 0.05);*/
+    border-bottom: solid black .5px;
     background-color: white;
     -webkit-transition: all .35s;
     -moz-transition: all .35s;
@@ -452,7 +453,9 @@ footer ul li a:hover, footer ul li a:focus, footer ul li a:active, footer ul li 
     /*color: white;*/
     /*border: 1px solid;*/
     /*border-color: white;  */
-    color: #027cde;
+
+    background-color: #027cde;
+    color: white;
     border: #027cde 1px solid;
 }
 
@@ -460,9 +463,13 @@ footer ul li a:hover, footer ul li a:focus, footer ul li a:active, footer ul li 
     /*color: white;*/
     /*border-color: #fdcc52;*/
     /*background-color: #fdcc52;  */
-    color: white;
+    /*color: white;*/
+    /*border-color: #027cde;*/
+    /*background-color: #027cde;*/
+
+    color: #027cde;
     border-color: #027cde;
-    background-color: #027cde;
+    background-color: white;
 }
 
 .btn {
