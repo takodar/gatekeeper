@@ -20,8 +20,21 @@
 #btnGetStarted{
     border-color: white;
     color: white;
-    background-color: transparent;
+    background: transparent; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(transparent); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(transparent); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(transparent); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(transparent); /* Standard syntax */
 }
 #btnGetStarted:hover{
     border-color: #027cde;
+    background: #027cde; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#92c7ee, #0262c3); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#92c7ee, #0262c3); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#92c7ee, #0262c3); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#92c7ee, #0262c3); /* Standard syntax */
+}
+
+.btn:not([disabled]):not(.disabled).active, .btn:not([disabled]):not(.disabled):active{
+    background-image: linear-gradient(#92c7ee, #0262c3);
 }
